@@ -1,0 +1,320 @@
+/*Nav bar code start from here */
+      * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+  
+
+  .headclass{
+    left: 298px;
+    font-weight: 500;
+    position: absolute;
+    top: 145px;
+}
+
+  main {
+    background-color: #f5f5f5;
+  }
+  
+  .daraz-navbar{
+    position: relative;
+    z-index: 100 !important;
+  }
+
+  header > .container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .daraz__subNav {
+    background: #F85606;
+    font-size: 4px;
+    transition: 0.5s;
+    padding-left: 45px;
+  }
+
+  a.nav-link.text-uppercase {
+    font-size: 14px;
+    color: white;
+  }
+  a.nav-link.text-uppercase:hover {
+    text-decoration: none;
+    color: #FEDDCD;
+  }
+  
+  ol.carousel-indicators {
+    background: transparent;
+  }
+  
+  .nav_btn:hover{
+    background-color:#DF4D05 !important;
+  }
+
+  /* Search in Daraz: Navbar code Style Start */
+  .search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 700px;
+    border: 1px solid #BABBBA;
+    border-radius: 20px;
+    background-color: white;
+  }
+
+  .search-input {
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+  }
+
+  .search-icon {
+    position: absolute;
+    right: 10px;
+    width: 50px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 9px;
+    background-color: #FFE1D2;
+    cursor: pointer;
+  }
+
+  /* Search in Daraz Navbar code Style End */
+
+  .daraz__cart {
+    font-size: 24px;
+    color: white;
+  }
+
+  .daraz__navbarSticky {
+    padding: 0px !important;
+    width: 100% !important;
+  }
+
+
+
+
+
+body {
+    background-color: #EFF0F5;
+}
+.signup-container {
+    background-color: white;
+    max-width: 750px;
+    margin: auto;
+    margin-top: 88px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.signup-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.full-width-btn {
+    width: 100%;
+}
+.half-width-btn {
+    width: 48%;
+    margin-right: 4%;
+}
+.icon-text-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+.icon-text-btn img {
+    max-width: 30px;
+    margin-right: 27px;
+}
+
+
+
+
+/*Footer Styling Apply here (Start from here...)*/
+
+.footer {
+    padding: 2rem 0;
+    background-color: #f9f9f9;
+  }
+  
+  .footer-logo {
+    width: 150px;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-title {
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-list a {
+    color: #000000 !important;
+    text-decoration: none;
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer-social a {
+    margin-right: 10px;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .footer-social a:hover {
+    color: #007bff;
+  }
+  
+  .footer-divider {
+    margin: 2rem 0;
+    border-top: 1px solid #ccc;
+  }
+  
+  .footer-copyright {
+    text-align: center;
+    color: #666;
+    font-size: 0.8rem;
+  }
+  
+  .footer-payment {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-payment img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  @media (max-width: 767px) {
+    .footer-social {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+  
+    .footer-payment {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .footer-payment img {
+      margin-bottom: 1rem;
+    }
+  }
+  
+  
+  
+  .flag-container {
+  display: flex;
+  align-items: center;
+  }
+  
+  .flag-circle {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-right: 7px;
+  }
+  
+  .flag-circle img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  }
+  
+  .payment-method{
+    width: 40px;
+    height: 40px;
+  }
+  
+  
+  /*   */
+  /* Style the landing page */
+  
+  p {
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .btn-primary {
+    margin: 10px auto;
+    display: block;
+  }
+  
+  /* Style the QR code and Google Play Store link */
+  
+  .qrcode-and-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Style the social media icons */
+  .social-media-icons {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .exclusive-deals{
+    display: flex;
+  }
+  
+  .social-media-icons li{
+    margin: 6px;
+  }
+  
+  .social-media-icons a {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .social-img{
+    width: 30px;
+  }
+  
+  
+  /* Buttons code */
+  .icon-text-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .text-container {
+    margin-left: 5px; /* Adjust the margin as needed */
+  }
+  
+  .upper-text,
+  .lower-text {
+    display: block;
+  }
+  
+  .upper-text{
+    font-size: 10px;
+  }
+  
+  .download-btn{
+    background-color: #000000 !important; 
+    width: 160px;
+    height: 50px;
+  }
+  
+  .col-lg-3{
+    margin: 15px !important;
+  }
+  
+  /*Footer Styling Apply (End here...)*/

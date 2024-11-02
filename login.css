@@ -1,0 +1,427 @@
+
+
+/*Footer Styling Apply here (Start from here...)*/
+
+.footer {
+  padding: 2rem 0;
+  background-color: #F5F5F5;
+  margin-top: 0;
+}
+
+.footer-logo {
+  width: 150px;
+  margin-bottom: 1rem;
+}
+
+.footer-title {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.footer-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-list a {
+  color: #000000 !important;
+  text-decoration: none;
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer-social a {
+  margin-right: 10px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.footer-social a:hover {
+  color: #007bff;
+}
+
+.footer-divider {
+  margin: 2rem 0;
+  border-top: 1px solid #ccc;
+}
+
+.footer-copyright {
+  text-align: center;
+  color: #666;
+  font-size: 0.8rem;
+}
+
+.footer-payment {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-payment img {
+  width: 30px;
+  height: 30px;
+}
+
+@media (max-width: 767px) {
+  .footer-social {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .footer-payment {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-payment img {
+    margin-bottom: 1rem;
+  }
+}
+
+
+
+.flag-container {
+display: flex;
+align-items: center;
+}
+
+.flag-circle {
+border-radius: 50%;
+width: 30px;
+height: 30px;
+margin-right: 7px;
+}
+
+.flag-circle img {
+width: 100%;
+height: 100%;
+border-radius: 50%;
+}
+
+.payment-method{
+  width: 40px;
+  height: 40px;
+}
+
+
+/*   */
+/* Style the landing page */
+
+p {
+  text-align: center;
+  font-size: 16px;
+}
+
+.btn-primary {
+  margin: 10px auto;
+  display: block;
+}
+
+/* Style the QR code and Google Play Store link */
+
+.qrcode-and-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style the social media icons */
+.social-media-icons {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.exclusive-deals{
+  display: flex;
+}
+
+.social-media-icons li{
+  margin: 6px;
+}
+
+.social-media-icons a {
+  font-size: 24px;
+  color: #333;
+}
+
+.social-img{
+  width: 30px;
+}
+
+
+/* Buttons code */
+.icon-text-container {
+  display: flex;
+  align-items: center;
+}
+
+.text-container {
+  margin-left: 5px; /* Adjust the margin as needed */
+}
+
+.upper-text,
+.lower-text {
+  display: block;
+}
+
+.upper-text{
+  font-size: 10px;
+}
+
+.download-btn{
+  background-color: #000000 !important; 
+  width: 160px;
+  height: 50px;
+}
+
+.col-lg-3{
+  margin: 15px !important;
+}
+
+/*Footer Styling Apply (End here...)*/
+
+
+
+/* Add any additional styling as needed */
+
+
+
+  main {
+    background-color: #f5f5f5;
+  }
+  
+  .daraz-navbar{
+    position: relative;
+    z-index: 100 !important;
+  }
+
+  header > .container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .daraz__subNav {
+    background: #F85606;
+    font-size: 4px;
+    transition: 0.5s;
+    padding-left: 45px;
+  }
+
+  a.nav-link.text-uppercase {
+    font-size: 14px;
+    color: white;
+  }
+  a.nav-link.text-uppercase:hover {
+    text-decoration: none;
+    color: #FEDDCD;
+  }
+  
+  ol.carousel-indicators {
+    background: transparent;
+  }
+  
+  .nav_btn:hover{
+    background-color:#DF4D05 !important;
+  }
+
+  /* Search in Daraz: Navbar code Style Start */
+  .search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 700px;
+    border: 1px solid #BABBBA;
+    border-radius: 20px;
+    background-color: white;
+  }
+
+  .search-input {
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+  }
+
+  .search-icon {
+    position: absolute;
+    right: 10px;
+    width: 50px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 9px;
+    background-color: #FFE1D2;
+    cursor: pointer;
+  }
+
+  /* Search in Daraz Navbar code Style End */
+
+  .daraz__cart {
+    font-size: 24px;
+    color: white;
+  }
+
+  .daraz__navbarSticky {
+    padding: 0px !important;
+    width: 100% !important;
+  }
+
+
+
+
+
+
+.mainn {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 61vh;
+    
+}
+.headclass{
+    left: 325px;
+    font-weight: 200;
+    position: absolute;
+    top: 128px;
+}
+.loginbtn{
+    background-color: #D0611E;
+}
+.register{
+    left: 908px;
+    font-weight: 100;
+    position: absolute;
+    top: 128px;
+}
+.containerr {
+    background-color: #fff;
+    padding: 18px; /* Added padding to the whole form */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    max-width: 700px; /* Set a maximum width for the form */
+    width: 100%; /* Make the form responsive */
+ 
+    
+
+
+    
+}
+
+form {
+    display: flex;
+    flex: 1;
+    padding: 0px;
+}
+
+.left-section {
+    flex: 1;
+    margin-right: 60px;
+}
+
+.right-section {
+    flex: 1;
+    padding-left: 20px;
+    margin-top: 40px;
+}
+
+.form-group {
+    margin-bottom: 0px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    font-size: smaller;
+    font-weight: lighter;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+.password-input-container {
+    position: relative;
+}
+
+.mainheading{
+    text-align: center;
+    margin-bottom: 0px;
+}
+#togglePassword {
+    position: absolute;
+    top: 50%;
+    right: -128px;
+    transform: translateY(-50%);
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #333;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: medium;
+}
+
+.reset {
+    margin-left: 210px;
+    font-size: x-small;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.or-login-with {
+    text-align: left;
+    margin: 10px;
+    font-size: small;
+}
+
+.social-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.facebook-button,
+.google-button {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: medium;
+}
+
+.facebook-button {
+    background-color: #3b5998;
+}
+
+.google-button {
+    background-color: #dd4b39;
+}
+
+.facebook-button:hover,
+.google-button:hover {
+    opacity: 0.8;
+}
+
+

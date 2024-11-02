@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Your Daraz Account</title>
+    <!-- Add Bootstrap CSS link -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="login.css">
+    
+    
+</head>
+<body>
+
+<!-- Nav Bar Code -->
+<section class="daraz-navbar"> 
+    <!-- Daraz Sub Nav -->
+    <section class="daraz__subNav">
+      <ul class="nav ">
+        <li class="nav-item">
+          <a class="nav-link text-uppercase" href="#">Become A Seller</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-uppercase" href="#">Daraz Affiliate Program</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-uppercase" href="#">Help & Support</a>
+        </li>
+        <li class="nav-item ml-auto mr-5">
+          <a class="nav-link text-uppercase " href="#">Save More on App</a>
+        </li>          
+        
+      </ul>
+    </section>
+
+     <!-- Daraz Navbar -->
+     <section class="daraz__navbar">
+      <div class="container-fluid daraz__navbarSticky">
+        <nav
+          class="navbar navbar-expand-lg"
+          style="background-color: #F85606 !important"
+        >
+          <a class="navbar-brand ml-3" href="#">
+            <img src="https://icms-image.slatic.net/images/ims-web/e650d6ca-1841-4646-b0e9-4ddbf2beb731.png" alt="logo" height="50vh" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <form class="form-inline my-2 my-lg-0 m-4">
+                  <div class="search-container">
+                      <input type="text" class="search-input" placeholder="Search in Daraz">
+                      <div class="search-icon"><center><i class="fa fa-search" style="color: red;"></center></i></div>
+                  </div>
+              </form>
+
+              <li class="nav-item">
+                <button class="btn nav_btn" style="color: white; background-color: #F85606;"><i class="fas fa-user" style="color: white; background-color: #F85606;" ></i> Login </button>
+              </li>
+              <li class="nav-item">
+                <button class="btn nav_btn mr-1" style="color: white; background-color: #F85606;">Sign Up</button>
+              </li>
+
+              <li class="nav-item dropdown">
+                  <button class="btn nav_btn mr-1 dropdown-toggle" style="color: white; background-color: #F85606;" id="languageDropdown" data-toggle="dropdown">
+                      <i class="fa fa-globe" style="color: white;"></i> EN</i>
+                  </button>
+                  
+                  <div class="dropdown-menu" aria-labelledby="languageDropdown">
+                      <p class="dropdown-item-text">Select language</p>
+                  
+                  <div class="form-check dropdown-item">
+                      <input class="form-check-input" type="radio" name="language" id="englishRadio">
+                      <label class="form-check-label" for="englishRadio">English</label>
+                  </div>
+  
+                  <div class="form-check dropdown-item">
+                      <input class="form-check-input" type="radio" name="language" id="urduRadio">
+                      <label class="form-check-label" for="urduRadio">Urdu</label>
+                  </div>
+                  </div>
+              </li>
+
+
+              <li class="nav-item daraz__cart mr-1">
+                  <a class="nav-link nav_btn" href="#">
+                    <i style="color: white" class="fa fa-shopping-cart"></i>
+                  </a>
+                </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </section>
+</section>
+
+<div class="mainn">
+
+  
+
+
+
+
+    <div>
+<h3 class="headclass"> Welcome to Daraz! Please login.</h3>
+<h6 class="register"> New member? <a href="signup.html">Register </a> here.</a></h6>
+</div>    
+<div class="container containerr ">
+        
+        <form action="login.php"  method="post">
+            <div class="form-group left-section ">
+                <label for="fullName">User Name*</label>
+                <input type="text" id="fullName" name="fullName" placeholder="Please enter your Phone Number or Email" required>
+                
+                <label for="password">Password*</label>
+                <div class="password-input-container">
+                    <input type="password" id="password" name="password" placeholder="Please enter your Password" required>
+                    <button type="button" id="togglePassword">👁️</button>
+                </div>
+                <a href="#Daraz.pk" class="reset">Reset Your Password</a>
+            </div>
+
+            <div class="form-group right-section">
+                <button type="submit" class="loginbtn">Login</button>
+
+                <div class="or-login-with">Or, login with</div>
+
+                <div class="social-buttons">
+                    <button type="button" class="facebook-button">f    Facebook</button>
+                    <button type="button" class="google-button">G+ Google</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+</div>
+
+
+
+
+
+<!-- Footer Of Website -->
+      <!-- Starting From here... -->
+      <footer class="footer" style="background-color: #F5F5F5;" >
+        <div class="container">
+          <div class="row">
+
+            <div class="col-lg-3 col-md-6">
+              <h5 class="footer-title" style="color:#F05C01;">Customer Care</h5>
+              <ul class="footer-list">
+                <li><a href="#">Help Center</a></li>
+                <li><a href="#">How to Buy</a></li>
+                <li><a href="#">Corporate & Bulk Purchasing</a></li>
+                <li><a href="#">Returns & Refunds</a></li>
+                <li><a href="#">Daraz Shop</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Purchase Protection</a></li>
+                <li><a href="#">Daraz Pick up Points</a></li>
+              </ul>
+
+              <h5 class="footer-title" style="color:#F05C01;">Make Money With Us</h5>
+              <ul class="footer-list">
+                <li><a href="#">Daraz University</a></li>
+                <li><a href="#">Sell On Daraz</a></li>
+                <li><a href="#">Join Daraz Affiliate Program</a></li>
+              </ul>
+
+            </div>
+
+
+            <div class="col-lg-2 col-md-6">
+              <h5 class="footer-title" style="color:#F05C01;">Daraz</h5>
+              <ul class="footer-list">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Digital Payments</a></li>
+                <li><a href="#">Daraz Donates</a></li>
+                <li><a href="#">Daraz Blog</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">NTN Number : 4012118-6</a></li>
+                <li><a href="#">STRN Number : 1700401211818</a></li>
+                <li><a href="#">Online Shopping App</a></li>
+                <li><a href="#">Online Grocery Shopping</a></li>
+                <li><a href="#">Daraz Exclusive</a></li>
+              </ul>
+            </div>
+
+
+<!-- Third column in footer   (Part Start from here) -->
+<!-- Daraz International (Flags Part Start) -->
+          <div class="col-lg-3 col-md-6">
+            <h3 class="footer-title" style="color:#F05C01;">Daraz International</h3>
+            
+            <div class="row">
+              <div class="col-6">
+                <ul class="footer-list">
+                  <li>
+                    <div class="flag-container">
+                      <div class="flag-circle">
+                        <img src="project/icons/pakistan-flag-icon.png" alt="Pakistan Flag">
+                      </div>
+                      <span class="flag-name">Pakistan</span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+          
+              <div class="col-6">
+                <ul class="footer-list">
+                  <li>
+                    <div class="flag-container">
+                      <div class="flag-circle">
+                        <img src="project/icons/bangladesh-flag-icon.png" alt="Bangladesh Flag">
+                      </div>
+                      <span class="flag-name">Bangladesh</span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          
+            <div class="row">
+              <div class="col-6">
+                <ul class="footer-list">
+                  <li>
+                    <div class="flag-container">
+                      <div class="flag-circle">
+                        <img src="project/icons/srilanka-flag-icon.png" alt="Srilanka Flag">
+                      </div>
+                      <span class="flag-name">Srilanka</span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+          
+              <div class="col-6">
+                <ul class="footer-list">
+                  <li>
+                    <div class="flag-container">
+                      <div class="flag-circle">
+                        <img src="project/icons/myanmar-flag-icon.png" alt="Myanmar Flag">
+                      </div>
+                      <span class="flag-name">Myanmar</span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+          
+              <div class="col-6">
+                <ul class="footer-list">
+                  <li>
+                    <div class="flag-container">
+                      <div class="flag-circle">
+                        <img src="project/icons/nepal-flag-icon.png" alt="Nepal Flag">
+                      </div>
+                      <span class="flag-name">Nepal</span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+
+<!-- Daraz International (Flags Part End here) -->
+
+
+
+<!-- Payment Methods (Part Start From here) -->
+            <h3 class="footer-title" style="color:#F05C01;">Payment Methods</h3>
+            
+              <div class="col-3">
+                <ul class="footer-list">
+                  <li>
+                        <img src="project/icons/cash-on-delievery-icon.png" width="50px" alt="Cash on delivery">
+                  </li>
+                </ul>
+              </div>
+          
+              <div class="col-3">
+                <ul class="footer-list">
+                  <li>
+                        <img src="project/icons/visa-icon.png" width="50px" alt="Visa Payment">
+                  </li>
+                </ul>
+              </div>
+          
+              <div class="col-3">
+                <ul class="footer-list">
+                  <li>
+                        <img src="project/icons/mastercard2-icon.png" width="50px" alt="MasterCard Payment">
+                  </li>
+                </ul>
+              </div>
+          
+              <div class="col-3">
+                <ul class="footer-list">
+                  <li>
+                        <img src="project/icons/easypaisa3-icon.png" width="50px" alt="Easy paisa Payment">
+                  </li>
+                </ul>
+              </div>
+            
+              <div class="col-3">
+                <ul class="footer-list">
+                  <li>
+                        <img src="project/icons/daraz-wallet-logo.png" width="50px" alt="Cash on delivery">
+                  </li>
+                </ul>
+              </div>
+          
+              <div class="col-3">
+                <ul class="footer-list">
+                  <li>
+                        <img src="project/icons/jazz-cash-logo.png" width="50px" alt="Visa Payment">
+                  </li>
+                </ul>
+              </div>
+          
+              <div class="col-3">
+                <ul class="footer-list">
+                  <li>
+                        <img src="project/icons/union-pay-logo.png" width="50px" alt="MasterCard Payment">
+                  </li>
+                </ul>
+              </div>
+          
+              <div class="col-3">
+                <ul class="footer-list">
+                  <li>
+                        <img src="project/icons/hbl-logo.png" width="50px" alt="Easy paisa Payment">
+                  </li>
+                </ul>
+              </div>
+          
+<!-- Payment Methods (Part End here) -->
+
+<!-- Verified by Pci dss  (Part Start from here) -->
+
+              <h4 style="color:#F05C01;">Verified By</h4>
+
+              <div class="col-12">
+                <ul class="footer-list">
+                  <li>
+                        <img src="project/icons/pci-dss-verfied.png" width="90px" alt="pci dss Verified">
+                  </li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+<!-- Verified by Pci dss  (Part End here) -->
+<!-- Third column in footer   (Part End here) -->
+
+
+<!-- Last column of footer Start from here -->
+
+        <div class="col-lg-3 col-md-6">
+          <h4 style="color:#F05C01;">Exclusive Deals and Offers!</h4>
+        <div class="row">
+          <div class="col-6">
+            <ul class="footer-list">
+              <li>
+                  <div>
+                    <img src="project/icons/daraz-qr-code.png" style="width: 120px;" alt="Daraz Qr Code">
+                  </div>
+              </li>
+            </ul>
+          </div>
+
+
+          <div class="col-6">
+            <ul class="footer-list">
+              <li>
+                  <div>
+
+                  <a href="https://apps.apple.com/us/app/daraz-online-shopping-app/id978058048?scm=1003.4.icms-zebra-5029545-2832850.OTHER_5370750400_2485531&spm=a2a0e.home.footer_top.21.5bc64076KueYLj" target="_blank" rel="noopener noreferrer">  
+                    <button type="button" class="btn btn-primary download-btn">
+                      <div class="icon-text-container">
+                        <img src="project/icons/apple-logo.png" style="width: 30px;" alt="AppStore Logo">
+                          <div class="text-container">
+                              <span class="upper-text">Download on the</span>
+                              <span class="lower-text">App Store</span>
+                          </div>
+                      </div>
+                    </button>
+                  </a>
+                  
+                  <a href="https://play.google.com/store/apps/details?spm=a2a0e.home.footer_top.22.5bc64076KueYLj&id=com.daraz.android&scm=1003.4.icms-zebra-5029545-2832850.OTHER_5370750400_2485531&pli=1" target="_blank" rel="noopener noreferrer">
+                    <button type="button" class="btn btn-primary download-btn">
+                      <div class="icon-text-container">
+                        <img src="project/icons/playstore-logo.png" style="width: 30px;" alt="PlayStore Logo">
+                        <div class="text-container">
+                            <span class="upper-text">Get It On</span>
+                            <span class="lower-text">Google Play</span>
+                        </div>
+                      </div>
+                    </button>
+                  </a>
+
+                  <a href="https://appgallery.huawei.com/?spm=a2a0e.home.footer_top.23.5bc64076KueYLj&scm=1003.4.icms-zebra-5029545-2832850.OTHER_5370750400_2485531#/app/C100948133" target="_blank" rel="noopener noreferrer">
+                    <button type="button" class="btn btn-primary download-btn">
+                      <div class="icon-text-container">
+                        <img src="project/icons/appGallery-logo.png" style="width: 30px;" alt="AppGallery Logo">
+                        <div class="text-container">
+                            <span class="upper-text">Explore It On</span>
+                            <span class="lower-text">AppGallery</span>
+                        </div>
+                      </div>
+                    </button>
+                  </a>
+
+                   </div>
+              </li>
+            </ul>
+          </div>
+  
+<center>
+          <div class="icon-text-container">
+            <img src="project/icons//daraz-blue-background-logo.png" style="width: 30px;" alt="Happy Shopping Logo">
+            <div class="text-container">
+                <span style="font-size: 20px; color: #F05C01; font-weight: 900;">Happy Shopping</span>
+                <span style="font-size: 10px; display: block;">Download App</span>
+            </div>
+          </div>
+</center>
+
+        <div class="follow-us">
+          <p style="font-size: 25px; color: #F05C01; margin-top: 25px;">Follow Us</p>
+          <ul class="social-media-icons">
+            <li><a href="https://www.facebook.com/darazpk?spm=a2a0e.home.footer_top.d_fbk.5bc64076KueYLj&scm=1003.4.icms-zebra-5029545-2833168.OTHER_5370750444_2485565"><img src="project/icons/facebook-logo.png" class="social-img" alt="Facebook Logo"></a></li>
+            <li><a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fdarazpk"><img src="project/icons/twitter-logo.png" class="social-img" alt="Twitter Logo"></a></li>
+            <li><a href="https://www.instagram.com/darazpk/?spm=a2a0e.home.footer_top.d_ins.5bc64076KueYLj&scm=1003.4.icms-zebra-5029545-2833168.OTHER_5370750450_2485565"><img src="project/icons/instagram-logo.png" class="social-img" alt="Instagram Logo"></a></li>
+            <li><a href="https://www.youtube.com/channel/UC2BZLVEe9yLof1ghc_YI0_A"><img src="project/icons/youtube-logo.png" class="social-img" alt="Youtube Logo"></a></li>
+            <li><a href="https://blog.daraz.pk/?spm=a2a0e.home.footer_top.d_dbl.5bc64076KueYLj&scm=1003.4.icms-zebra-5029545-2833168.OTHER_5370750453_2485565"><img src="project/icons/internet-logo.png" class="social-img" alt="Internet Logo"></a></li>
+          </ul>
+        </div>
+  
+</div>
+
+<!-- Last column of footer End here -->
+
+
+          </div>
+        </div>
+      </footer>
+<!-- Footer Ends here -->
+
+
+
+<script>
+      function hide() {
+        document.getElementById("hide__add__toast").style.display = "none";
+        document.querySelector(".toast__cross").style.display = "none";
+      }
+
+      window.onscroll = function () {
+        myFunction();
+      };
+
+      const navbar = document.querySelector(".daraz__navbar");
+      const sticky = navbar.offsetTop;
+
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky");
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      }
+    </script>
+
+<!-- Add Bootstrap JS and Popper.js (for Bootstrap) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

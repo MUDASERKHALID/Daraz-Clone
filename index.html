@@ -1,0 +1,4325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Daraz</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Favicon -->
+    <link rel="icon" href="demo_icon.gif" type="image/gif" sizes="16x16" />
+    <!-- Custom css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome css -->
+    <link rel="stylesheet" href="icon/css/all.css" />
+    <!-- Bootstrap cdn -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+    
+    <!-- Font Awesome script -->
+    <script src="icon/js/all.js"></script>
+  </head>
+  <body>
+    <main>
+      
+  <!-- Daraz Navbar Section -->
+  <section class="daraz-navbar"> 
+      <!-- Daraz Sub Nav -->
+      <section class="daraz__subNav">
+        <ul class="nav ">
+          <li class="nav-item">
+            <a class="nav-link text-uppercase" href="#">Become A Seller</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-uppercase" href="#">Daraz Affiliate Program</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-uppercase" href="#">Help & Support</a>
+          </li>
+          <li class="nav-item ml-auto mr-5">
+            <a class="nav-link text-uppercase " href="#">Save More on App</a>
+          </li>          
+          
+        </ul>
+
+      </section>
+
+      <!-- Daraz Navbar -->
+       <!-- Daraz Navbar -->
+       <section class="daraz__navbar">
+        <div class="container-fluid daraz__navbarSticky">
+          <nav
+            class="navbar navbar-expand-lg"
+            style="background-color: #F85606 !important"
+          >
+            <a class="navbar-brand ml-3" href="#">
+              <img src="https://icms-image.slatic.net/images/ims-web/e650d6ca-1841-4646-b0e9-4ddbf2beb731.png" alt="logo" height="50vh" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav">
+                <form class="form-inline my-2 my-lg-0 m-4">
+                    <div class="search-container">
+                        <input type="text" class="search-input" placeholder="Search in Daraz">
+                        <div class="search-icon"><center><i class="fa fa-search" style="color: red;"></center></i></div>
+                    </div>
+                </form>
+
+                <li class="nav-item">
+                  <button class="btn nav_btn" style="color: white;"><i class="fas fa-user" style="color: white;" ></i> <a href="http://localhost/daraz%20complete%20project/login.html" style="text-decoration: none; color: white;">Login</a></button>
+                </li>
+                <li class="nav-item">
+                  <button class="btn nav_btn mr-1" style="color: white;"><a href="http://localhost/daraz%20complete%20project/signup.html" style="text-decoration: none; color: white;">Sign Up</a></button>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <button class="btn nav_btn mr-1 dropdown-toggle" style="color: white;" id="languageDropdown" data-toggle="dropdown">
+                        <i class="fa fa-globe" style="color: white;"></i> EN</i>
+                    </button>
+                    
+                    <div class="dropdown-menu" aria-labelledby="languageDropdown">
+                        <p class="dropdown-item-text">Select language</p>
+                    
+                    <div class="form-check dropdown-item">
+                        <input class="form-check-input" type="radio" name="language" id="englishRadio">
+                        <label class="form-check-label" for="englishRadio">English</label>
+                    </div>
+    
+                    <div class="form-check dropdown-item">
+                        <input class="form-check-input" type="radio" name="language" id="urduRadio">
+                        <label class="form-check-label" for="urduRadio">Urdu</label>
+                    </div>
+                    </div>
+                </li>
+
+
+                <li class="nav-item daraz__cart mr-1">
+                    <a class="nav-link nav_btn" href="#">
+                      <i style="color: white" class="fa fa-shopping-cart"></i>
+                    </a>
+                  </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </section>
+  </section>
+      
+
+      <!-- Daraz Carousel -->
+
+      <div class="container-fluid">
+        <div class="row">
+            <!-- Left Navigation Column -->
+             <div class="col-md-3">
+
+
+                  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                   
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                      <ul class="nav flex-column">
+                      
+
+
+<!-- Groceries & Pets Dropdown -->
+<li class="nav-item dropdown dropright">
+  <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+   <img src="project/navbar-icons/vegetable.png" alt=""> Groceries & Pets
+  </a>
+
+  <!-- Main Dropdown Menu for Groceries & Pets -->
+  <div class="dropdown-menu dropdown-menu1" aria-labelledby="groceriesPetsDropdown">
+
+    <!-- Groceries Submenu -->
+    <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+      <i class="fas fa-shopping-basket"></i> Fresh Produce
+    </a>
+    <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+      <!-- Groceries Submenu Items -->
+      <div class="d-flex flex-row ">
+          <div class="rempading ">
+              <a href="https://www.daraz.pk/buy-fresh-produce/?spm=a2a0e.home.cate_1.1.6a274076hxJWzl">
+                <img src="project/navbar-images/Freshfruit.jpg" alt="Product 2" class="img-fluid">
+              </a>
+              <p class="text-center">Fresh Fruit</p>
+          </div>
+
+          <div class="rempading">
+            <a href="https://www.daraz.pk/buy-fresh-produce/?spm=a2a0e.home.cate_1.1.6a274076hxJWzl">
+              <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+              </a>
+              <p class="text-center">Fresh Vegetables</p>
+          </div>
+          <div class="rempading">
+            <a href="https://www.daraz.pk/buy-fresh-produce/?spm=a2a0e.home.cate_1.1.6a274076hxJWzl">
+            
+              <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+            </a>
+              <p class="text-center">Fresh & Cold Pressed Juices</p>
+          </div>
+          <div class="rempading ">
+            <a href="https://www.daraz.pk/buy-fresh-produce/?spm=a2a0e.home.cate_1.1.6a274076hxJWzl">
+            
+            <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+            </a>
+            <p class="text-center">Bread</p>
+        </div>
+        <div class="rempading ">
+          <a href="https://www.daraz.pk/buy-fresh-produce/?spm=a2a0e.home.cate_1.1.6a274076hxJWzl">
+            
+          <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+          </a>
+          <p class="text-center">Eggs</p>
+      </div>
+  
+      </div>
+  </div>
+
+    <!-- Pets Submenu -->
+    <a class="nav-link dropdown-toggle" href="#" id="petsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('petsSubmenu')">
+      <i class="fas fa-paw"></i> BreakFast Choco & Snacks
+    </a>
+    
+    <div class="dropdown-menu dropdown-menu2" id="petsSubmenu">
+    <!-- Pets Submenu Items -->
+ <div class="d-flex flex-row ">
+          <div class="rempading ">
+              <a href="https://www.daraz.pk/buy-fresh-produce/?spm=a2a0e.home.cate_1.1.6a274076hxJWzl">
+                <img src="project/navbar-images/Freshfruit.jpg" alt="Product 2" class="img-fluid">
+            </a>
+              <p class="text-center">Fresh Fruit</p>
+          </div>
+          <div class="rempading">
+            <a href="https://www.daraz.pk/buy-fresh-produce/?spm=a2a0e.home.cate_1.1.6a274076hxJWzl">
+              <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+              </a>
+              <p class="text-center">Fresh Vegetables</p>
+          </div>
+          <div class="rempading">
+            <a href="https://www.daraz.pk/buy-fresh-produce/?spm=a2a0e.home.cate_1.1.6a274076hxJWzl">
+            
+              <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+            </a>
+              <p class="text-center">Fresh & Cold Pressed Juices</p>
+          </div>
+          <div class="rempading ">
+            <a href="https://www.daraz.pk/buy-fresh-produce/?spm=a2a0e.home.cate_1.1.6a274076hxJWzl">
+            
+            <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+            </a>
+            <p class="text-center">Bread</p>
+        </div>
+        <div class="rempading ">
+          <a href="https://www.daraz.pk/buy-fresh-produce/?spm=a2a0e.home.cate_1.1.6a274076hxJWzl">
+            
+          <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+          </a>
+          <p class="text-center">Eggs</p>
+      </div>
+  
+      </div>
+</div>
+
+
+
+    <!-- Groceries Submenu -->
+    <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+      <i class="fas fa-shopping-basket"></i> Beverages
+    </a>
+
+    <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+      <!-- Groceries Submenu Items -->
+      <div class="d-flex flex-row ">
+          <div class="rempading ">
+              <img src="project/navbar-images/Freshfruit.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Fresh Fruit</p>
+          </div>
+          <div class="rempading">
+              <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+              <p class="text-center">Fresh Vegetables</p>
+          </div>
+          <div class="rempading">
+              <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Fresh & Cold Pressed Juices</p>
+          </div>
+          <div class="rempading ">
+            <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Bread</p>
+        </div>
+        <div class="rempading ">
+          <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+          <p class="text-center">Eggs</p>
+      </div>
+  
+      </div>
+  </div>
+
+
+
+
+      <!-- Groceries Submenu -->
+      <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+        <i class="fas fa-shopping-basket"></i> Food Staples
+      </a>
+  
+      <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+        <!-- Groceries Submenu Items -->
+        <div class="d-flex flex-row ">
+            <div class="rempading ">
+                <img src="project/navbar-images/Freshfruit.jpg" alt="Product 1" class="img-fluid">
+                <p class="text-center">Fresh Fruit</p>
+            </div>
+            <div class="rempading">
+                <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+                <p class="text-center">Fresh Vegetables</p>
+            </div>
+            <div class="rempading">
+                <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+                <p class="text-center">Fresh & Cold Pressed Juices</p>
+            </div>
+            <div class="rempading ">
+              <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Bread</p>
+          </div>
+          <div class="rempading ">
+            <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Eggs</p>
+        </div>
+    
+        </div>
+    </div>
+
+    
+
+        <!-- Groceries Submenu -->
+        <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+          <i class="fas fa-shopping-basket"></i> Laundary & HouseHold
+        </a>
+    
+        <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+          <!-- Groceries Submenu Items -->
+          <div class="d-flex flex-row ">
+              <div class="rempading ">
+                  <img src="project/navbar-images/Freshfruit.jpg" alt="Product 1" class="img-fluid">
+                  <p class="text-center">Fresh Fruit</p>
+              </div>
+              <div class="rempading">
+                  <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+                  <p class="text-center">Fresh Vegetables</p>
+              </div>
+              <div class="rempading">
+                  <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+                  <p class="text-center">Fresh & Cold Pressed Juices</p>
+              </div>
+              <div class="rempading ">
+                <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+                <p class="text-center">Bread</p>
+            </div>
+            <div class="rempading ">
+              <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Eggs</p>
+          </div>
+      
+          </div>
+      </div>
+
+      
+
+          <!-- Groceries Submenu -->
+    <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+      <i class="fas fa-shopping-basket"></i> Frozen Food
+    </a>
+
+    <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+      <!-- Groceries Submenu Items -->
+      <div class="d-flex flex-row ">
+          <div class="rempading ">
+              <img src="project/navbar-images/Freshfruit.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Fresh Fruit</p>
+          </div>
+          <div class="rempading">
+              <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+              <p class="text-center">Fresh Vegetables</p>
+          </div>
+          <div class="rempading">
+              <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Fresh & Cold Pressed Juices</p>
+          </div>
+          <div class="rempading ">
+            <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Bread</p>
+        </div>
+        <div class="rempading ">
+          <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+          <p class="text-center">Eggs</p>
+      </div>
+  
+      </div>
+  </div>
+
+
+      <!-- Groceries Submenu -->
+      <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+        <i class="fas fa-shopping-basket"></i> Cat
+      </a>
+  
+      <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+        <!-- Groceries Submenu Items -->
+        <div class="d-flex flex-row ">
+            <div class="rempading ">
+                <img src="project/navbar-images/Freshfruit.jpg" alt="Product 1" class="img-fluid">
+                <p class="text-center">Fresh Fruit</p>
+            </div>
+            <div class="rempading">
+                <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+                <p class="text-center">Fresh Vegetables</p>
+            </div>
+            <div class="rempading">
+                <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+                <p class="text-center">Fresh & Cold Pressed Juices</p>
+            </div>
+            <div class="rempading ">
+              <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Bread</p>
+          </div>
+          <div class="rempading ">
+            <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Eggs</p>
+        </div>
+    
+        </div>
+    </div>
+
+    <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+      <i class="fas fa-shopping-basket"></i> Dog
+    </a>
+
+    <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+      <!-- Groceries Submenu Items -->
+      <div class="d-flex flex-row ">
+          <div class="rempading ">
+              <img src="project/navbar-images/Freshfruit.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Fresh Fruit</p>
+          </div>
+          <div class="rempading">
+              <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+              <p class="text-center">Fresh Vegetables</p>
+          </div>
+          <div class="rempading">
+              <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Fresh & Cold Pressed Juices</p>
+          </div>
+          <div class="rempading ">
+            <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Bread</p>
+        </div>
+        <div class="rempading ">
+          <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+          <p class="text-center">Eggs</p>
+      </div>
+  
+      </div>
+  </div>
+
+  
+  <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+    <i class="fas fa-shopping-basket"></i> Fish
+  </a>
+
+  <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+    <!-- Groceries Submenu Items -->
+    <div class="d-flex flex-row ">
+        <div class="rempading ">
+            <img src="project/navbar-images/Freshfruit.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Fresh Fruit</p>
+        </div>
+        <div class="rempading">
+            <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+            <p class="text-center">Fresh Vegetables</p>
+        </div>
+        <div class="rempading">
+            <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Fresh & Cold Pressed Juices</p>
+        </div>
+        <div class="rempading ">
+          <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+          <p class="text-center">Bread</p>
+      </div>
+      <div class="rempading ">
+        <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+        <p class="text-center">Eggs</p>
+    </div>
+
+    </div>
+</div>
+
+
+
+  </div>
+</li>
+
+
+
+
+
+
+
+
+
+
+                          <li class="nav-item dropdown dropright">
+  <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <img src="project/navbar-icons/skincare.png" alt="health & beauty icon"> Health & Beauty
+  </a>
+
+  <!-- Main Dropdown Menu for Groceries & Pets -->
+  <div class="dropdown-menu dropdown-menu1" aria-labelledby="groceriesPetsDropdown">
+
+    <!-- Groceries Submenu -->
+    <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+      <i class="fas fa-shopping-basket"></i> Makeup
+    </a>
+
+    <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+      <!-- Groceries Submenu Items -->
+       <div class="d-flex flex-row ">
+          <div class="rempading ">
+              <a href="https://www.daraz.pk/buy-fresh-produce/?spm=a2a0e.home.cate_1.1.6a274076hxJWzl">
+                <img src="project/navbar-images/Freshfruit.jpg" alt="Product 2" class="img-fluid">
+            </a>
+              <p class="text-center">Fresh Fruit</p>
+          </div>
+          <div class="rempading">
+            <a href="https://www.daraz.pk/buy-fresh-produce/?spm=a2a0e.home.cate_1.1.6a274076hxJWzl">
+              <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+              </a>
+              <p class="text-center">Fresh Vegetables</p>
+          </div>
+          <div class="rempading">
+            <a href="https://www.daraz.pk/buy-fresh-produce/?spm=a2a0e.home.cate_1.1.6a274076hxJWzl">
+            
+              <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+            </a>
+              <p class="text-center">Fresh & Cold Pressed Juices</p>
+          </div>
+          <div class="rempading ">
+            <a href="https://www.daraz.pk/buy-fresh-produce/?spm=a2a0e.home.cate_1.1.6a274076hxJWzl">
+            
+            <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+            </a>
+            <p class="text-center">Bread</p>
+        </div>
+        <div class="rempading ">
+          <a href="https://www.daraz.pk/buy-fresh-produce/?spm=a2a0e.home.cate_1.1.6a274076hxJWzl">
+            
+          <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+          </a>
+          <p class="text-center">Eggs</p>
+      </div>
+  
+      </div>
+  </div>
+
+    <!-- Pets Submenu -->
+    <a class="nav-link dropdown-toggle" href="#" id="petsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('petsSubmenu')">
+      <i class="fas fa-paw"></i> Beauty Tools
+    </a>
+    
+    <div class="dropdown-menu dropdown-menu2" id="petsSubmenu">
+    <!-- Pets Submenu Items -->
+    <div class="d-flex flex-row ">
+        <div class="rempading ">
+            <img src="carousal1.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Product 1</p>
+        </div>
+        <div class="rempading">
+            <img src="carousal2.jpg" alt="Product 2" class="img-fluid">
+            <p class="text-center">Product 2</p>
+        </div>
+        <div class="rempading">
+            <img src="path/to/your/image3.jpg" alt="Product 3" class="img-fluid">
+            <p class="text-center">Product 3</p>
+        </div>
+        <div class="rempading ">
+          <img src="carousal1.jpg" alt="Product 1" class="img-fluid">
+          <p class="text-center">Product 1</p>
+      </div>
+      <div class="rempading ">
+        <img src="carousal1.jpg" alt="Product 1" class="img-fluid">
+        <p class="text-center">Product 1</p>
+    </div>
+
+    </div>
+</div>
+
+
+
+    <!-- Groceries Submenu -->
+    <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+      <i class="fas fa-shopping-basket"></i> Skin Care
+    </a>
+
+    <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+      <!-- Groceries Submenu Items -->
+      <div class="d-flex flex-row ">
+          <div class="rempading ">
+              <img src="project/navbar-images/Freshfruit.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Fresh Fruit</p>
+          </div>
+          <div class="rempading">
+              <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+              <p class="text-center">Fresh Vegetables</p>
+          </div>
+          <div class="rempading">
+              <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Fresh & Cold Pressed Juices</p>
+          </div>
+          <div class="rempading ">
+            <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Bread</p>
+        </div>
+        <div class="rempading ">
+          <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+          <p class="text-center">Eggs</p>
+      </div>
+  
+      </div>
+  </div>
+
+
+
+
+      <!-- Groceries Submenu -->
+      <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+        <i class="fas fa-shopping-basket"></i> Hair Care
+      </a>
+  
+      <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+        <!-- Groceries Submenu Items -->
+        <div class="d-flex flex-row ">
+            <div class="rempading ">
+                <img src="project/navbar-images/Freshfruit.jpg" alt="Product 1" class="img-fluid">
+                <p class="text-center">Fresh Fruit</p>
+            </div>
+            <div class="rempading">
+                <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+                <p class="text-center">Fresh Vegetables</p>
+            </div>
+            <div class="rempading">
+                <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+                <p class="text-center">Fresh & Cold Pressed Juices</p>
+            </div>
+            <div class="rempading ">
+              <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Bread</p>
+          </div>
+          <div class="rempading ">
+            <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Eggs</p>
+        </div>
+    
+        </div>
+    </div>
+
+    
+
+        <!-- Groceries Submenu -->
+        <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+          <i class="fas fa-shopping-basket"></i> Bath & Body
+        </a>
+    
+        <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+          <!-- Groceries Submenu Items -->
+          <div class="d-flex flex-row ">
+              <div class="rempading ">
+                  <img src="project/navbar-images/Freshfruit.jpg" alt="Product 1" class="img-fluid">
+                  <p class="text-center">Fresh Fruit</p>
+              </div>
+              <div class="rempading">
+                  <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+                  <p class="text-center">Fresh Vegetables</p>
+              </div>
+              <div class="rempading">
+                  <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+                  <p class="text-center">Fresh & Cold Pressed Juices</p>
+              </div>
+              <div class="rempading ">
+                <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+                <p class="text-center">Bread</p>
+            </div>
+            <div class="rempading ">
+              <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Eggs</p>
+          </div>
+      
+          </div>
+      </div>
+
+      
+
+          <!-- Groceries Submenu -->
+    <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+      <i class="fas fa-shopping-basket"></i> Men's Care
+    </a>
+
+    <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+      <!-- Groceries Submenu Items -->
+      <div class="d-flex flex-row ">
+          <div class="rempading ">
+              <img src="project/navbar-images/Freshfruit.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Fresh Fruit</p>
+          </div>
+          <div class="rempading">
+              <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+              <p class="text-center">Fresh Vegetables</p>
+          </div>
+          <div class="rempading">
+              <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Fresh & Cold Pressed Juices</p>
+          </div>
+          <div class="rempading ">
+            <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Bread</p>
+        </div>
+        <div class="rempading ">
+          <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+          <p class="text-center">Eggs</p>
+      </div>
+  
+      </div>
+  </div>
+
+
+      <!-- Groceries Submenu -->
+      <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+        <i class="fas fa-shopping-basket"></i> Personal care
+      </a>
+  
+      <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+        <!-- Groceries Submenu Items -->
+        <div class="d-flex flex-row ">
+            <div class="rempading ">
+                <img src="project/navbar-images/Freshfruit.jpg" alt="Product 1" class="img-fluid">
+                <p class="text-center">Fresh Fruit</p>
+            </div>
+            <div class="rempading">
+                <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+                <p class="text-center">Fresh Vegetables</p>
+            </div>
+            <div class="rempading">
+                <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+                <p class="text-center">Fresh & Cold Pressed Juices</p>
+            </div>
+            <div class="rempading ">
+              <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Bread</p>
+          </div>
+          <div class="rempading ">
+            <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Eggs</p>
+        </div>
+    
+        </div>
+    </div>
+
+    <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+      <i class="fas fa-shopping-basket"></i> Fragrances
+    </a>
+
+    <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+      <!-- Groceries Submenu Items -->
+      <div class="d-flex flex-row ">
+          <div class="rempading ">
+              <img src="project/navbar-images/Freshfruit.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Fresh Fruit</p>
+          </div>
+          <div class="rempading">
+              <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+              <p class="text-center">Fresh Vegetables</p>
+          </div>
+          <div class="rempading">
+              <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Fresh & Cold Pressed Juices</p>
+          </div>
+          <div class="rempading ">
+            <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Bread</p>
+        </div>
+        <div class="rempading ">
+          <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+          <p class="text-center">Eggs</p>
+      </div>
+  
+      </div>
+  </div>
+
+  
+  <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+    <i class="fas fa-shopping-basket"></i> Sexual Wellness
+  </a>
+
+  <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+    <!-- Groceries Submenu Items -->
+    <div class="d-flex flex-row ">
+        <div class="rempading ">
+            <img src="project/navbar-images/Freshfruit.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Fresh Fruit</p>
+        </div>
+        <div class="rempading">
+            <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+            <p class="text-center">Fresh Vegetables</p>
+        </div>
+        <div class="rempading">
+            <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Fresh & Cold Pressed Juices</p>
+        </div>
+        <div class="rempading ">
+          <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+          <p class="text-center">Bread</p>
+      </div>
+      <div class="rempading ">
+        <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+        <p class="text-center">Eggs</p>
+    </div>
+
+    </div>
+</div>
+
+
+
+
+
+
+  </div>
+</li>
+
+
+
+                         <li class="nav-item dropdown dropright">
+  <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <img src="project/navbar-icons/tshirt.png" alt=""> Men's Fashion
+  </a>
+
+  <!-- Main Dropdown Menu for Groceries & Pets -->
+  <div class="dropdown-menu dropdown-menu1" aria-labelledby="groceriesPetsDropdown">
+
+    <!-- Groceries Submenu -->
+    <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+      <i class="fas fa-shopping-basket"></i> T-shirts & Tanks
+    </a>
+
+    <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+      <!-- Groceries Submenu Items -->
+        <div class="d-flex flex-row ">
+          <div class="rempading ">
+              <a href="https://www.daraz.pk/buy-fresh-produce/?spm=a2a0e.home.cate_1.1.6a274076hxJWzl">
+                <img src="project/navbar-images/Freshfruit.jpg" alt="Product 2" class="img-fluid">
+            </a>
+              <p class="text-center">Fresh Fruit</p>
+          </div>
+          <div class="rempading">
+            <a href="https://www.daraz.pk/buy-fresh-produce/?spm=a2a0e.home.cate_1.1.6a274076hxJWzl">
+              <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+              </a>
+              <p class="text-center">Fresh Vegetables</p>
+          </div>
+          <div class="rempading">
+            <a href="https://www.daraz.pk/buy-fresh-produce/?spm=a2a0e.home.cate_1.1.6a274076hxJWzl">
+            
+              <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+            </a>
+              <p class="text-center">Fresh & Cold Pressed Juices</p>
+          </div>
+          <div class="rempading ">
+            <a href="https://www.daraz.pk/buy-fresh-produce/?spm=a2a0e.home.cate_1.1.6a274076hxJWzl">
+            
+            <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+            </a>
+            <p class="text-center">Bread</p>
+        </div>
+        <div class="rempading ">
+          <a href="https://www.daraz.pk/buy-fresh-produce/?spm=a2a0e.home.cate_1.1.6a274076hxJWzl">
+            
+          <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+          </a>
+          <p class="text-center">Eggs</p>
+      </div>
+  
+      </div>
+  </div>
+
+    <!-- Pets Submenu -->
+    <a class="nav-link dropdown-toggle" href="#" id="petsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('petsSubmenu')">
+      <i class="fas fa-paw"></i> Shirts & Polo
+    </a>
+    
+    <div class="dropdown-menu dropdown-menu2" id="petsSubmenu">
+    <!-- Pets Submenu Items -->
+    <div class="d-flex flex-row ">
+        <div class="rempading ">
+            <img src="carousal1.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Product 1</p>
+        </div>
+        <div class="rempading">
+            <img src="carousal2.jpg" alt="Product 2" class="img-fluid">
+            <p class="text-center">Product 2</p>
+        </div>
+        <div class="rempading">
+            <img src="path/to/your/image3.jpg" alt="Product 3" class="img-fluid">
+            <p class="text-center">Product 3</p>
+        </div>
+        <div class="rempading ">
+          <img src="carousal1.jpg" alt="Product 1" class="img-fluid">
+          <p class="text-center">Product 1</p>
+      </div>
+      <div class="rempading ">
+        <img src="carousal1.jpg" alt="Product 1" class="img-fluid">
+        <p class="text-center">Product 1</p>
+    </div>
+
+    </div>
+</div>
+
+
+
+    <!-- Groceries Submenu -->
+    <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+      <i class="fas fa-shopping-basket"></i> Pants & Jeans
+    </a>
+
+    <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+      <!-- Groceries Submenu Items -->
+      <div class="d-flex flex-row ">
+          <div class="rempading ">
+              <img src="project/navbar-images/Freshfruit.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Fresh Fruit</p>
+          </div>
+          <div class="rempading">
+              <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+              <p class="text-center">Fresh Vegetables</p>
+          </div>
+          <div class="rempading">
+              <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Fresh & Cold Pressed Juices</p>
+          </div>
+          <div class="rempading ">
+            <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Bread</p>
+        </div>
+        <div class="rempading ">
+          <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+          <p class="text-center">Eggs</p>
+      </div>
+  
+      </div>
+  </div>
+
+
+
+
+      <!-- Groceries Submenu -->
+      <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+        <i class="fas fa-shopping-basket"></i> Shorts Joggers & Sweats
+      </a>
+  
+      <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+        <!-- Groceries Submenu Items -->
+        <div class="d-flex flex-row ">
+            <div class="rempading ">
+                <img src="project/navbar-images/Freshfruit.jpg" alt="Product 1" class="img-fluid">
+                <p class="text-center">Fresh Fruit</p>
+            </div>
+            <div class="rempading">
+                <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+                <p class="text-center">Fresh Vegetables</p>
+            </div>
+            <div class="rempading">
+                <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+                <p class="text-center">Fresh & Cold Pressed Juices</p>
+            </div>
+            <div class="rempading ">
+              <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Bread</p>
+          </div>
+          <div class="rempading ">
+            <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Eggs</p>
+        </div>
+    
+        </div>
+    </div>
+
+    
+
+        <!-- Groceries Submenu -->
+        <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+          <i class="fas fa-shopping-basket"></i> Kurtas & Shalwar Kameez
+        </a>
+    
+        <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+          <!-- Groceries Submenu Items -->
+          <div class="d-flex flex-row ">
+              <div class="rempading ">
+                  <img src="project/navbar-images/Freshfruit.jpg" alt="Product 1" class="img-fluid">
+                  <p class="text-center">Fresh Fruit</p>
+              </div>
+              <div class="rempading">
+                  <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+                  <p class="text-center">Fresh Vegetables</p>
+              </div>
+              <div class="rempading">
+                  <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+                  <p class="text-center">Fresh & Cold Pressed Juices</p>
+              </div>
+              <div class="rempading ">
+                <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+                <p class="text-center">Bread</p>
+            </div>
+            <div class="rempading ">
+              <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Eggs</p>
+          </div>
+      
+          </div>
+      </div>
+
+      
+
+          <!-- Groceries Submenu -->
+    <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+      <i class="fas fa-shopping-basket"></i> Winter Clothing
+    </a>
+
+    <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+      <!-- Groceries Submenu Items -->
+      <div class="d-flex flex-row ">
+          <div class="rempading ">
+              <img src="project/navbar-images/Freshfruit.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Fresh Fruit</p>
+          </div>
+          <div class="rempading">
+              <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+              <p class="text-center">Fresh Vegetables</p>
+          </div>
+          <div class="rempading">
+              <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Fresh & Cold Pressed Juices</p>
+          </div>
+          <div class="rempading ">
+            <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Bread</p>
+        </div>
+        <div class="rempading ">
+          <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+          <p class="text-center">Eggs</p>
+      </div>
+  
+      </div>
+  </div>
+
+
+      <!-- Groceries Submenu -->
+      <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+        <i class="fas fa-shopping-basket"></i> Inner Wear
+      </a>
+  
+      <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+        <!-- Groceries Submenu Items -->
+        <div class="d-flex flex-row ">
+            <div class="rempading ">
+                <img src="project/navbar-images/Freshfruit.jpg" alt="Product 1" class="img-fluid">
+                <p class="text-center">Fresh Fruit</p>
+            </div>
+            <div class="rempading">
+                <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+                <p class="text-center">Fresh Vegetables</p>
+            </div>
+            <div class="rempading">
+                <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+                <p class="text-center">Fresh & Cold Pressed Juices</p>
+            </div>
+            <div class="rempading ">
+              <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Bread</p>
+          </div>
+          <div class="rempading ">
+            <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Eggs</p>
+        </div>
+    
+        </div>
+    </div>
+
+    <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+      <i class="fas fa-shopping-basket"></i> Shoes
+    </a>
+
+    <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+      <!-- Groceries Submenu Items -->
+      <div class="d-flex flex-row ">
+          <div class="rempading ">
+              <img src="project/navbar-images/Freshfruit.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Fresh Fruit</p>
+          </div>
+          <div class="rempading">
+              <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+              <p class="text-center">Fresh Vegetables</p>
+          </div>
+          <div class="rempading">
+              <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Fresh & Cold Pressed Juices</p>
+          </div>
+          <div class="rempading ">
+            <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Bread</p>
+        </div>
+        <div class="rempading ">
+          <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+          <p class="text-center">Eggs</p>
+      </div>
+  
+      </div>
+  </div>
+
+  
+  <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+    <i class="fas fa-shopping-basket"></i> Accessories
+  </a>
+
+  <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+    <!-- Groceries Submenu Items -->
+    <div class="d-flex flex-row ">
+        <div class="rempading ">
+            <img src="project/navbar-images/Freshfruit.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Fresh Fruit</p>
+        </div>
+        <div class="rempading">
+            <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+            <p class="text-center">Fresh Vegetables</p>
+        </div>
+        <div class="rempading">
+            <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Fresh & Cold Pressed Juices</p>
+        </div>
+        <div class="rempading ">
+          <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+          <p class="text-center">Bread</p>
+      </div>
+      <div class="rempading ">
+        <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+        <p class="text-center">Eggs</p>
+    </div>
+
+    </div>
+</div>
+
+
+
+  </div>
+</li>
+
+
+
+                          <li class="nav-item dropdown dropright">
+  <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <img src="project/navbar-icons/dress.png" alt=""> Women's Fashion
+  </a>
+
+  <!-- Main Dropdown Menu for Groceries & Pets -->
+  <div class="dropdown-menu dropdown-menu1" aria-labelledby="groceriesPetsDropdown">
+
+    <!-- Groceries Submenu -->
+    <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+      <i class="fas fa-shopping-basket"></i> Unstiched Fabric
+    </a>
+
+    <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+      <!-- Groceries Submenu Items -->
+        <div class="d-flex flex-row ">
+          <div class="rempading ">
+              <a href="https://www.daraz.pk/buy-fresh-produce/?spm=a2a0e.home.cate_1.1.6a274076hxJWzl">
+                <img src="project/navbar-images/Freshfruit.jpg" alt="Product 2" class="img-fluid">
+            </a>
+              <p class="text-center">Fresh Fruit</p>
+          </div>
+          <div class="rempading">
+            <a href="https://www.daraz.pk/buy-fresh-produce/?spm=a2a0e.home.cate_1.1.6a274076hxJWzl">
+              <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+              </a>
+              <p class="text-center">Fresh Vegetables</p>
+          </div>
+          <div class="rempading">
+            <a href="https://www.daraz.pk/buy-fresh-produce/?spm=a2a0e.home.cate_1.1.6a274076hxJWzl">
+            
+              <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+            </a>
+              <p class="text-center">Fresh & Cold Pressed Juices</p>
+          </div>
+          <div class="rempading ">
+            <a href="https://www.daraz.pk/buy-fresh-produce/?spm=a2a0e.home.cate_1.1.6a274076hxJWzl">
+            
+            <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+            </a>
+            <p class="text-center">Bread</p>
+        </div>
+        <div class="rempading ">
+          <a href="https://www.daraz.pk/buy-fresh-produce/?spm=a2a0e.home.cate_1.1.6a274076hxJWzl">
+            
+          <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+          </a>
+          <p class="text-center">Eggs</p>
+      </div>
+  
+      </div>
+  </div>
+
+    <!-- Pets Submenu -->
+    <a class="nav-link dropdown-toggle" href="#" id="petsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('petsSubmenu')">
+      <i class="fas fa-paw"></i> Kurtas & Shalwar Kameez
+    </a>
+    
+    <div class="dropdown-menu dropdown-menu2" id="petsSubmenu">
+    <!-- Pets Submenu Items -->
+    <div class="d-flex flex-row ">
+        <div class="rempading ">
+            <img src="carousal1.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Product 1</p>
+        </div>
+        <div class="rempading">
+            <img src="carousal2.jpg" alt="Product 2" class="img-fluid">
+            <p class="text-center">Product 2</p>
+        </div>
+        <div class="rempading">
+            <img src="path/to/your/image3.jpg" alt="Product 3" class="img-fluid">
+            <p class="text-center">Product 3</p>
+        </div>
+        <div class="rempading ">
+          <img src="carousal1.jpg" alt="Product 1" class="img-fluid">
+          <p class="text-center">Product 1</p>
+      </div>
+      <div class="rempading ">
+        <img src="carousal1.jpg" alt="Product 1" class="img-fluid">
+        <p class="text-center">Product 1</p>
+    </div>
+
+    </div>
+</div>
+
+
+
+    <!-- Groceries Submenu -->
+    <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+      <i class="fas fa-shopping-basket"></i> Muslim Wear
+    </a>
+
+    <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+      <!-- Groceries Submenu Items -->
+      <div class="d-flex flex-row ">
+          <div class="rempading ">
+              <img src="project/navbar-images/Freshfruit.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Fresh Fruit</p>
+          </div>
+          <div class="rempading">
+              <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+              <p class="text-center">Fresh Vegetables</p>
+          </div>
+          <div class="rempading">
+              <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Fresh & Cold Pressed Juices</p>
+          </div>
+          <div class="rempading ">
+            <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Bread</p>
+        </div>
+        <div class="rempading ">
+          <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+          <p class="text-center">Eggs</p>
+      </div>
+  
+      </div>
+  </div>
+
+
+
+
+      <!-- Groceries Submenu -->
+      <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+        <i class="fas fa-shopping-basket"></i> Tops
+      </a>
+  
+      <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+        <!-- Groceries Submenu Items -->
+        <div class="d-flex flex-row ">
+            <div class="rempading ">
+                <img src="project/navbar-images/Freshfruit.jpg" alt="Product 1" class="img-fluid">
+                <p class="text-center">Fresh Fruit</p>
+            </div>
+            <div class="rempading">
+                <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+                <p class="text-center">Fresh Vegetables</p>
+            </div>
+            <div class="rempading">
+                <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+                <p class="text-center">Fresh & Cold Pressed Juices</p>
+            </div>
+            <div class="rempading ">
+              <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Bread</p>
+          </div>
+          <div class="rempading ">
+            <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Eggs</p>
+        </div>
+    
+        </div>
+    </div>
+
+    
+
+        <!-- Groceries Submenu -->
+        <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+          <i class="fas fa-shopping-basket"></i> Bras, Panties & Lingerie
+        </a>
+    
+        <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+          <!-- Groceries Submenu Items -->
+          <div class="d-flex flex-row ">
+              <div class="rempading ">
+                  <img src="project/navbar-images/Freshfruit.jpg" alt="Product 1" class="img-fluid">
+                  <p class="text-center">Fresh Fruit</p>
+              </div>
+              <div class="rempading">
+                  <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+                  <p class="text-center">Fresh Vegetables</p>
+              </div>
+              <div class="rempading">
+                  <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+                  <p class="text-center">Fresh & Cold Pressed Juices</p>
+              </div>
+              <div class="rempading ">
+                <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+                <p class="text-center">Bread</p>
+            </div>
+            <div class="rempading ">
+              <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Eggs</p>
+          </div>
+      
+          </div>
+      </div>
+
+      
+
+          <!-- Groceries Submenu -->
+    <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+      <i class="fas fa-shopping-basket"></i> Sleepwear & Innerwear
+    </a>
+
+    <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+      <!-- Groceries Submenu Items -->
+      <div class="d-flex flex-row ">
+          <div class="rempading ">
+              <img src="project/navbar-images/Freshfruit.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Fresh Fruit</p>
+          </div>
+          <div class="rempading">
+              <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+              <p class="text-center">Fresh Vegetables</p>
+          </div>
+          <div class="rempading">
+              <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Fresh & Cold Pressed Juices</p>
+          </div>
+          <div class="rempading ">
+            <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Bread</p>
+        </div>
+        <div class="rempading ">
+          <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+          <p class="text-center">Eggs</p>
+      </div>
+  
+      </div>
+  </div>
+
+
+      <!-- Groceries Submenu -->
+      <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+        <i class="fas fa-shopping-basket"></i> Pants Jeans & Legging
+      </a>
+  
+      <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+        <!-- Groceries Submenu Items -->
+        <div class="d-flex flex-row ">
+            <div class="rempading ">
+                <img src="project/navbar-images/Freshfruit.jpg" alt="Product 1" class="img-fluid">
+                <p class="text-center">Fresh Fruit</p>
+            </div>
+            <div class="rempading">
+                <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+                <p class="text-center">Fresh Vegetables</p>
+            </div>
+            <div class="rempading">
+                <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+                <p class="text-center">Fresh & Cold Pressed Juices</p>
+            </div>
+            <div class="rempading ">
+              <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Bread</p>
+          </div>
+          <div class="rempading ">
+            <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Eggs</p>
+        </div>
+    
+        </div>
+    </div>
+
+    <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+      <i class="fas fa-shopping-basket"></i> Dresses & Skirts
+    </a>
+
+    <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+      <!-- Groceries Submenu Items -->
+      <div class="d-flex flex-row ">
+          <div class="rempading ">
+              <img src="project/navbar-images/Freshfruit.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Fresh Fruit</p>
+          </div>
+          <div class="rempading">
+              <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+              <p class="text-center">Fresh Vegetables</p>
+          </div>
+          <div class="rempading">
+              <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Fresh & Cold Pressed Juices</p>
+          </div>
+          <div class="rempading ">
+            <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Bread</p>
+        </div>
+        <div class="rempading ">
+          <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+          <p class="text-center">Eggs</p>
+      </div>
+  
+      </div>
+  </div>
+
+  
+  <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+    <i class="fas fa-shopping-basket"></i> Winter Clothing
+  </a>
+
+  <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+    <!-- Groceries Submenu Items -->
+    <div class="d-flex flex-row ">
+        <div class="rempading ">
+            <img src="project/navbar-images/Freshfruit.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Fresh Fruit</p>
+        </div>
+        <div class="rempading">
+            <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+            <p class="text-center">Fresh Vegetables</p>
+        </div>
+        <div class="rempading">
+            <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Fresh & Cold Pressed Juices</p>
+        </div>
+        <div class="rempading ">
+          <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+          <p class="text-center">Bread</p>
+      </div>
+      <div class="rempading ">
+        <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+        <p class="text-center">Eggs</p>
+    </div>
+
+    </div>
+</div>
+
+
+
+  </div>
+</li>
+
+
+
+                         <li class="nav-item dropdown dropright">
+  <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <img src="project/navbar-icons/teddy-bear.png" alt=""> Mother & Baby
+  </a>
+
+  <!-- Main Dropdown Menu for Groceries & Pets -->
+  <div class="dropdown-menu dropdown-menu1" aria-labelledby="groceriesPetsDropdown">
+
+    <!-- Groceries Submenu -->
+    <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+      <i class="fas fa-shopping-basket"></i> Milk Formula & Baby Food
+    </a>
+
+    <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+      <!-- Groceries Submenu Items -->
+        <div class="d-flex flex-row ">
+          <div class="rempading ">
+              <a href="https://www.daraz.pk/buy-fresh-produce/?spm=a2a0e.home.cate_1.1.6a274076hxJWzl">
+                <img src="project/navbar-images/Freshfruit.jpg" alt="Product 2" class="img-fluid">
+            </a>
+              <p class="text-center">Fresh Fruit</p>
+          </div>
+          <div class="rempading">
+            <a href="https://www.daraz.pk/buy-fresh-produce/?spm=a2a0e.home.cate_1.1.6a274076hxJWzl">
+              <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+              </a>
+              <p class="text-center">Fresh Vegetables</p>
+          </div>
+          <div class="rempading">
+            <a href="https://www.daraz.pk/buy-fresh-produce/?spm=a2a0e.home.cate_1.1.6a274076hxJWzl">
+            
+              <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+            </a>
+              <p class="text-center">Fresh & Cold Pressed Juices</p>
+          </div>
+          <div class="rempading ">
+            <a href="https://www.daraz.pk/buy-fresh-produce/?spm=a2a0e.home.cate_1.1.6a274076hxJWzl">
+            
+            <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+            </a>
+            <p class="text-center">Bread</p>
+        </div>
+        <div class="rempading ">
+          <a href="https://www.daraz.pk/buy-fresh-produce/?spm=a2a0e.home.cate_1.1.6a274076hxJWzl">
+            
+          <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+          </a>
+          <p class="text-center">Eggs</p>
+      </div>
+  
+      </div>
+  </div>
+
+    <!-- Pets Submenu -->
+    <a class="nav-link dropdown-toggle" href="#" id="petsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('petsSubmenu')">
+      <i class="fas fa-paw"></i> Diapring & Potty
+    </a>
+    
+    <div class="dropdown-menu dropdown-menu2" id="petsSubmenu">
+    <!-- Pets Submenu Items -->
+    <div class="d-flex flex-row ">
+        <div class="rempading ">
+            <img src="carousal1.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Product 1</p>
+        </div>
+        <div class="rempading">
+            <img src="carousal2.jpg" alt="Product 2" class="img-fluid">
+            <p class="text-center">Product 2</p>
+        </div>
+        <div class="rempading">
+            <img src="path/to/your/image3.jpg" alt="Product 3" class="img-fluid">
+            <p class="text-center">Product 3</p>
+        </div>
+        <div class="rempading ">
+          <img src="carousal1.jpg" alt="Product 1" class="img-fluid">
+          <p class="text-center">Product 1</p>
+      </div>
+      <div class="rempading ">
+        <img src="carousal1.jpg" alt="Product 1" class="img-fluid">
+        <p class="text-center">Product 1</p>
+    </div>
+
+    </div>
+</div>
+
+
+
+    <!-- Groceries Submenu -->
+    <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+      <i class="fas fa-shopping-basket"></i> Feeding
+    </a>
+
+    <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+      <!-- Groceries Submenu Items -->
+      <div class="d-flex flex-row ">
+          <div class="rempading ">
+              <img src="project/navbar-images/Freshfruit.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Fresh Fruit</p>
+          </div>
+          <div class="rempading">
+              <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+              <p class="text-center">Fresh Vegetables</p>
+          </div>
+          <div class="rempading">
+              <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Fresh & Cold Pressed Juices</p>
+          </div>
+          <div class="rempading ">
+            <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Bread</p>
+        </div>
+        <div class="rempading ">
+          <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+          <p class="text-center">Eggs</p>
+      </div>
+  
+      </div>
+  </div>
+
+
+
+
+      <!-- Groceries Submenu -->
+      <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+        <i class="fas fa-shopping-basket"></i> Maternity Care
+      </a>
+  
+      <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+        <!-- Groceries Submenu Items -->
+        <div class="d-flex flex-row ">
+            <div class="rempading ">
+                <img src="project/navbar-images/Freshfruit.jpg" alt="Product 1" class="img-fluid">
+                <p class="text-center">Fresh Fruit</p>
+            </div>
+            <div class="rempading">
+                <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+                <p class="text-center">Fresh Vegetables</p>
+            </div>
+            <div class="rempading">
+                <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+                <p class="text-center">Fresh & Cold Pressed Juices</p>
+            </div>
+            <div class="rempading ">
+              <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Bread</p>
+          </div>
+          <div class="rempading ">
+            <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Eggs</p>
+        </div>
+    
+        </div>
+    </div>
+
+    
+
+        <!-- Groceries Submenu -->
+        <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+          <i class="fas fa-shopping-basket"></i> Baby Gear
+        </a>
+    
+        <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+          <!-- Groceries Submenu Items -->
+          <div class="d-flex flex-row ">
+              <div class="rempading ">
+                  <img src="project/navbar-images/Freshfruit.jpg" alt="Product 1" class="img-fluid">
+                  <p class="text-center">Fresh Fruit</p>
+              </div>
+              <div class="rempading">
+                  <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+                  <p class="text-center">Fresh Vegetables</p>
+              </div>
+              <div class="rempading">
+                  <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+                  <p class="text-center">Fresh & Cold Pressed Juices</p>
+              </div>
+              <div class="rempading ">
+                <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+                <p class="text-center">Bread</p>
+            </div>
+            <div class="rempading ">
+              <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Eggs</p>
+          </div>
+      
+          </div>
+      </div>
+
+      
+
+          <!-- Groceries Submenu -->
+    <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+      <i class="fas fa-shopping-basket"></i> Nursery
+    </a>
+
+    <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+      <!-- Groceries Submenu Items -->
+      <div class="d-flex flex-row ">
+          <div class="rempading ">
+              <img src="project/navbar-images/Freshfruit.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Fresh Fruit</p>
+          </div>
+          <div class="rempading">
+              <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+              <p class="text-center">Fresh Vegetables</p>
+          </div>
+          <div class="rempading">
+              <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Fresh & Cold Pressed Juices</p>
+          </div>
+          <div class="rempading ">
+            <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Bread</p>
+        </div>
+        <div class="rempading ">
+          <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+          <p class="text-center">Eggs</p>
+      </div>
+  
+      </div>
+  </div>
+
+
+      <!-- Groceries Submenu -->
+      <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+        <i class="fas fa-shopping-basket"></i> Baby Personal Care
+      </a>
+  
+      <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+        <!-- Groceries Submenu Items -->
+        <div class="d-flex flex-row ">
+            <div class="rempading ">
+                <img src="project/navbar-images/Freshfruit.jpg" alt="Product 1" class="img-fluid">
+                <p class="text-center">Fresh Fruit</p>
+            </div>
+            <div class="rempading">
+                <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+                <p class="text-center">Fresh Vegetables</p>
+            </div>
+            <div class="rempading">
+                <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+                <p class="text-center">Fresh & Cold Pressed Juices</p>
+            </div>
+            <div class="rempading ">
+              <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Bread</p>
+          </div>
+          <div class="rempading ">
+            <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Eggs</p>
+        </div>
+    
+        </div>
+    </div>
+
+    <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+      <i class="fas fa-shopping-basket"></i> Clothing & Accessories
+    </a>
+
+    <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+      <!-- Groceries Submenu Items -->
+      <div class="d-flex flex-row ">
+          <div class="rempading ">
+              <img src="project/navbar-images/Freshfruit.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Fresh Fruit</p>
+          </div>
+          <div class="rempading">
+              <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+              <p class="text-center">Fresh Vegetables</p>
+          </div>
+          <div class="rempading">
+              <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Fresh & Cold Pressed Juices</p>
+          </div>
+          <div class="rempading ">
+            <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Bread</p>
+        </div>
+        <div class="rempading ">
+          <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+          <p class="text-center">Eggs</p>
+      </div>
+  
+      </div>
+  </div>
+
+  
+  <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+    <i class="fas fa-shopping-basket"></i> Baby & Toddler Toys
+  </a>
+
+  <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+    <!-- Groceries Submenu Items -->
+    <div class="d-flex flex-row ">
+        <div class="rempading ">
+            <img src="project/navbar-images/Freshfruit.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Fresh Fruit</p>
+        </div>
+        <div class="rempading">
+            <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+            <p class="text-center">Fresh Vegetables</p>
+        </div>
+        <div class="rempading">
+            <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Fresh & Cold Pressed Juices</p>
+        </div>
+        <div class="rempading ">
+          <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+          <p class="text-center">Bread</p>
+      </div>
+      <div class="rempading ">
+        <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+        <p class="text-center">Eggs</p>
+    </div>
+
+    </div>
+</div>
+
+
+
+
+  </div>
+</li>
+
+
+                         <li class="nav-item dropdown dropright">
+  <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <img src="project/navbar-icons/couch.png" alt="Home & LifeStyle"> Home & LifeStyle
+  </a>
+
+  <!-- Main Dropdown Menu for Groceries & Pets -->
+  <div class="dropdown-menu  dropdown-menu1" aria-labelledby="groceriesPetsDropdown">
+
+    <!-- Groceries Submenu -->
+    <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+      <i class="fas fa-shopping-basket"></i> Bath
+    </a>
+
+    <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+      <!-- Groceries Submenu Items -->
+        <div class="d-flex flex-row ">
+          <div class="rempading ">
+              <a href="https://www.daraz.pk/buy-fresh-produce/?spm=a2a0e.home.cate_1.1.6a274076hxJWzl">
+                <img src="project/navbar-images/Freshfruit.jpg" alt="Product 2" class="img-fluid">
+            </a>
+              <p class="text-center">Fresh Fruit</p>
+          </div>
+          <div class="rempading">
+            <a href="https://www.daraz.pk/buy-fresh-produce/?spm=a2a0e.home.cate_1.1.6a274076hxJWzl">
+              <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+              </a>
+              <p class="text-center">Fresh Vegetables</p>
+          </div>
+          <div class="rempading">
+            <a href="https://www.daraz.pk/buy-fresh-produce/?spm=a2a0e.home.cate_1.1.6a274076hxJWzl">
+            
+              <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+            </a>
+              <p class="text-center">Fresh & Cold Pressed Juices</p>
+          </div>
+          <div class="rempading ">
+            <a href="https://www.daraz.pk/buy-fresh-produce/?spm=a2a0e.home.cate_1.1.6a274076hxJWzl">
+            
+            <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+            </a>
+            <p class="text-center">Bread</p>
+        </div>
+        <div class="rempading ">
+          <a href="https://www.daraz.pk/buy-fresh-produce/?spm=a2a0e.home.cate_1.1.6a274076hxJWzl">
+            
+          <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+          </a>
+          <p class="text-center">Eggs</p>
+      </div>
+  
+      </div>
+  </div>
+
+    <!-- Pets Submenu -->
+    <a class="nav-link dropdown-toggle" href="#" id="petsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('petsSubmenu')">
+      <i class="fas fa-paw"></i> Bedding
+    </a>
+    
+    <div class="dropdown-menu dropdown-menu2" id="petsSubmenu">
+    <!-- Pets Submenu Items -->
+    <div class="d-flex flex-row ">
+        <div class="rempading ">
+            <img src="carousal1.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Product 1</p>
+        </div>
+        <div class="rempading">
+            <img src="carousal2.jpg" alt="Product 2" class="img-fluid">
+            <p class="text-center">Product 2</p>
+        </div>
+        <div class="rempading">
+            <img src="path/to/your/image3.jpg" alt="Product 3" class="img-fluid">
+            <p class="text-center">Product 3</p>
+        </div>
+        <div class="rempading ">
+          <img src="carousal1.jpg" alt="Product 1" class="img-fluid">
+          <p class="text-center">Product 1</p>
+      </div>
+      <div class="rempading ">
+        <img src="carousal1.jpg" alt="Product 1" class="img-fluid">
+        <p class="text-center">Product 1</p>
+    </div>
+
+    </div>
+</div>
+
+
+
+    <!-- Groceries Submenu -->
+    <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+      <i class="fas fa-shopping-basket"></i> Decor
+    </a>
+
+    <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+      <!-- Groceries Submenu Items -->
+      <div class="d-flex flex-row ">
+          <div class="rempading ">
+              <img src="project/navbar-images/Freshfruit.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Fresh Fruit</p>
+          </div>
+          <div class="rempading">
+              <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+              <p class="text-center">Fresh Vegetables</p>
+          </div>
+          <div class="rempading">
+              <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Fresh & Cold Pressed Juices</p>
+          </div>
+          <div class="rempading ">
+            <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Bread</p>
+        </div>
+        <div class="rempading ">
+          <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+          <p class="text-center">Eggs</p>
+      </div>
+  
+      </div>
+  </div>
+
+
+
+
+      <!-- Groceries Submenu -->
+      <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+        <i class="fas fa-shopping-basket"></i> Furniture
+      </a>
+  
+      <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+        <!-- Groceries Submenu Items -->
+        <div class="d-flex flex-row ">
+            <div class="rempading ">
+                <img src="project/navbar-images/Freshfruit.jpg" alt="Product 1" class="img-fluid">
+                <p class="text-center">Fresh Fruit</p>
+            </div>
+            <div class="rempading">
+                <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+                <p class="text-center">Fresh Vegetables</p>
+            </div>
+            <div class="rempading">
+                <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+                <p class="text-center">Fresh & Cold Pressed Juices</p>
+            </div>
+            <div class="rempading ">
+              <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Bread</p>
+          </div>
+          <div class="rempading ">
+            <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Eggs</p>
+        </div>
+    
+        </div>
+    </div>
+
+    
+
+        <!-- Groceries Submenu -->
+        <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+          <i class="fas fa-shopping-basket"></i> Kitchen & Dining
+        </a>
+    
+        <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+          <!-- Groceries Submenu Items -->
+          <div class="d-flex flex-row ">
+              <div class="rempading ">
+                  <img src="project/navbar-images/Freshfruit.jpg" alt="Product 1" class="img-fluid">
+                  <p class="text-center">Fresh Fruit</p>
+              </div>
+              <div class="rempading">
+                  <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+                  <p class="text-center">Fresh Vegetables</p>
+              </div>
+              <div class="rempading">
+                  <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+                  <p class="text-center">Fresh & Cold Pressed Juices</p>
+              </div>
+              <div class="rempading ">
+                <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+                <p class="text-center">Bread</p>
+            </div>
+            <div class="rempading ">
+              <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Eggs</p>
+          </div>
+      
+          </div>
+      </div>
+
+      
+
+          <!-- Groceries Submenu -->
+    <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+      <i class="fas fa-shopping-basket"></i> Lighting
+    </a>
+
+    <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+      <!-- Groceries Submenu Items -->
+      <div class="d-flex flex-row ">
+          <div class="rempading ">
+              <img src="project/navbar-images/Freshfruit.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Fresh Fruit</p>
+          </div>
+          <div class="rempading">
+              <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+              <p class="text-center">Fresh Vegetables</p>
+          </div>
+          <div class="rempading">
+              <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Fresh & Cold Pressed Juices</p>
+          </div>
+          <div class="rempading ">
+            <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Bread</p>
+        </div>
+        <div class="rempading ">
+          <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+          <p class="text-center">Eggs</p>
+      </div>
+  
+      </div>
+  </div>
+
+
+      <!-- Groceries Submenu -->
+      <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+        <i class="fas fa-shopping-basket"></i> Laundary & Cleaning
+      </a>
+  
+      <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+        <!-- Groceries Submenu Items -->
+        <div class="d-flex flex-row ">
+            <div class="rempading ">
+                <img src="project/navbar-images/Freshfruit.jpg" alt="Product 1" class="img-fluid">
+                <p class="text-center">Fresh Fruit</p>
+            </div>
+            <div class="rempading">
+                <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+                <p class="text-center">Fresh Vegetables</p>
+            </div>
+            <div class="rempading">
+                <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+                <p class="text-center">Fresh & Cold Pressed Juices</p>
+            </div>
+            <div class="rempading ">
+              <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Bread</p>
+          </div>
+          <div class="rempading ">
+            <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Eggs</p>
+        </div>
+    
+        </div>
+    </div>
+
+    <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+      <i class="fas fa-shopping-basket"></i> Tools , DIY & Outdoor
+    </a>
+
+    <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+      <!-- Groceries Submenu Items -->
+      <div class="d-flex flex-row ">
+          <div class="rempading ">
+              <img src="project/navbar-images/Freshfruit.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Fresh Fruit</p>
+          </div>
+          <div class="rempading">
+              <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+              <p class="text-center">Fresh Vegetables</p>
+          </div>
+          <div class="rempading">
+              <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Fresh & Cold Pressed Juices</p>
+          </div>
+          <div class="rempading ">
+            <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Bread</p>
+        </div>
+        <div class="rempading ">
+          <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+          <p class="text-center">Eggs</p>
+      </div>
+  
+      </div>
+  </div>
+
+  
+  <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+    <i class="fas fa-shopping-basket"></i> Stationary & Craft
+  </a>
+
+  <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+    <!-- Groceries Submenu Items -->
+    <div class="d-flex flex-row ">
+        <div class="rempading ">
+            <img src="project/navbar-images/Freshfruit.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Fresh Fruit</p>
+        </div>
+        <div class="rempading">
+            <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+            <p class="text-center">Fresh Vegetables</p>
+        </div>
+        <div class="rempading">
+            <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Fresh & Cold Pressed Juices</p>
+        </div>
+        <div class="rempading ">
+          <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+          <p class="text-center">Bread</p>
+      </div>
+      <div class="rempading ">
+        <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+        <p class="text-center">Eggs</p>
+    </div>
+
+    </div>
+</div>
+
+
+
+
+
+
+  </div>
+</li>
+
+
+                         <li class="nav-item dropdown dropright">
+  <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <img src="project/navbar-icons/responsive.png" alt=""> Electronic Devices
+  </a>
+
+  <!-- Main Dropdown Menu for Groceries & Pets -->
+  <div class="dropdown-menu  dropdown-menu1" aria-labelledby="groceriesPetsDropdown">
+
+    <!-- Groceries Submenu -->
+    <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+      <i class="fas fa-shopping-basket"></i> Smart Phones
+    </a>
+
+    <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+      <!-- Groceries Submenu Items -->
+       <div class="d-flex flex-row ">
+          <div class="rempading ">
+              <a href="https://www.daraz.pk/buy-fresh-produce/?spm=a2a0e.home.cate_1.1.6a274076hxJWzl">
+                <img src="project/navbar-images/Freshfruit.jpg" alt="Product 2" class="img-fluid">
+            </a>
+              <p class="text-center">Fresh Fruit</p>
+          </div>
+          <div class="rempading">
+            <a href="https://www.daraz.pk/buy-fresh-produce/?spm=a2a0e.home.cate_1.1.6a274076hxJWzl">
+              <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+              </a>
+              <p class="text-center">Fresh Vegetables</p>
+          </div>
+          <div class="rempading">
+            <a href="https://www.daraz.pk/buy-fresh-produce/?spm=a2a0e.home.cate_1.1.6a274076hxJWzl">
+            
+              <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+            </a>
+              <p class="text-center">Fresh & Cold Pressed Juices</p>
+          </div>
+          <div class="rempading ">
+            <a href="https://www.daraz.pk/buy-fresh-produce/?spm=a2a0e.home.cate_1.1.6a274076hxJWzl">
+            
+            <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+            </a>
+            <p class="text-center">Bread</p>
+        </div>
+        <div class="rempading ">
+          <a href="https://www.daraz.pk/buy-fresh-produce/?spm=a2a0e.home.cate_1.1.6a274076hxJWzl">
+            
+          <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+          </a>
+          <p class="text-center">Eggs</p>
+      </div>
+  
+      </div>
+  </div>
+
+    <!-- Pets Submenu -->
+    <a class="nav-link dropdown-toggle" href="#" id="petsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('petsSubmenu')">
+      <i class="fas fa-paw"></i> Feature Phones
+    </a>
+    
+    <div class="dropdown-menu dropdown-menu2" id="petsSubmenu">
+    <!-- Pets Submenu Items -->
+    <div class="d-flex flex-row ">
+        <div class="rempading ">
+            <img src="carousal1.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Product 1</p>
+        </div>
+        <div class="rempading">
+            <img src="carousa.jpg" alt="Product 2" class="img-fluid">
+            <p class="text-center">Product 2</p>
+        </div>
+        <div class="rempading">
+            <img src="path/to/your/image3.jpg" alt="Product 3" class="img-fluid">
+            <p class="text-center">Product 3</p>
+        </div>
+        <div class="rempading ">
+          <img src="carousal1.jpg" alt="Product 1" class="img-fluid">
+          <p class="text-center">Product 1</p>
+      </div>
+      <div class="rempading ">
+        <img src="carousal1.jpg" alt="Product 1" class="img-fluid">
+        <p class="text-center">Product 1</p>
+    </div>
+
+    </div>
+</div>
+
+
+
+    <!-- Groceries Submenu -->
+    <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+      <i class="fas fa-shopping-basket"></i>Tablets
+    </a>
+
+    <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+      <!-- Groceries Submenu Items -->
+      <div class="d-flex flex-row ">
+          <div class="rempading ">
+              <img src="project/navbar-images/Freshfruit.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Fresh Fruit</p>
+          </div>
+          <div class="rempading">
+              <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+              <p class="text-center">Fresh Vegetables</p>
+          </div>
+          <div class="rempading">
+              <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Fresh & Cold Pressed Juices</p>
+          </div>
+          <div class="rempading ">
+            <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Bread</p>
+        </div>
+        <div class="rempading ">
+          <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+          <p class="text-center">Eggs</p>
+      </div>
+  
+      </div>
+  </div>
+
+
+
+
+      <!-- Groceries Submenu -->
+      <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+        <i class="fas fa-shopping-basket"></i> Monitors
+      </a>
+  
+      <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+        <!-- Groceries Submenu Items -->
+        <div class="d-flex flex-row ">
+            <div class="rempading ">
+                <img src="project/navbar-images/Freshfruit.jpg" alt="Product 1" class="img-fluid">
+                <p class="text-center">Fresh Fruit</p>
+            </div>
+            <div class="rempading">
+                <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+                <p class="text-center">Fresh Vegetables</p>
+            </div>
+            <div class="rempading">
+                <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+                <p class="text-center">Fresh & Cold Pressed Juices</p>
+            </div>
+            <div class="rempading ">
+              <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Bread</p>
+          </div>
+          <div class="rempading ">
+            <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Eggs</p>
+        </div>
+    
+        </div>
+    </div>
+
+    
+
+        <!-- Groceries Submenu -->
+        <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+          <i class="fas fa-shopping-basket"></i> Laptops
+        </a>
+    
+        <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+          <!-- Groceries Submenu Items -->
+          <div class="d-flex flex-row ">
+              <div class="rempading ">
+                  <img src="project/navbar-images/Freshfruit.jpg" alt="Product 1" class="img-fluid">
+                  <p class="text-center">Fresh Fruit</p>
+              </div>
+              <div class="rempading">
+                  <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+                  <p class="text-center">Fresh Vegetables</p>
+              </div>
+              <div class="rempading">
+                  <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+                  <p class="text-center">Fresh & Cold Pressed Juices</p>
+              </div>
+              <div class="rempading ">
+                <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+                <p class="text-center">Bread</p>
+            </div>
+            <div class="rempading ">
+              <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Eggs</p>
+          </div>
+      
+          </div>
+      </div>
+
+      
+
+          <!-- Groceries Submenu -->
+    <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+      <i class="fas fa-shopping-basket"></i> Desktops
+    </a>
+
+    <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+      <!-- Groceries Submenu Items -->
+      <div class="d-flex flex-row ">
+          <div class="rempading ">
+              <img src="project/navbar-images/Freshfruit.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Fresh Fruit</p>
+          </div>
+          <div class="rempading">
+              <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+              <p class="text-center">Fresh Vegetables</p>
+          </div>
+          <div class="rempading">
+              <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Fresh & Cold Pressed Juices</p>
+          </div>
+          <div class="rempading ">
+            <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Bread</p>
+        </div>
+        <div class="rempading ">
+          <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+          <p class="text-center">Eggs</p>
+      </div>
+  
+      </div>
+  </div>
+
+
+      <!-- Groceries Submenu -->
+      <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+        <i class="fas fa-shopping-basket"></i> Smart Watches
+      </a>
+  
+      <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+        <!-- Groceries Submenu Items -->
+        <div class="d-flex flex-row ">
+            <div class="rempading ">
+                <img src="project/navbar-images/Freshfruit.jpg" alt="Product 1" class="img-fluid">
+                <p class="text-center">Fresh Fruit</p>
+            </div>
+            <div class="rempading">
+                <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+                <p class="text-center">Fresh Vegetables</p>
+            </div>
+            <div class="rempading">
+                <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+                <p class="text-center">Fresh & Cold Pressed Juices</p>
+            </div>
+            <div class="rempading ">
+              <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Bread</p>
+          </div>
+          <div class="rempading ">
+            <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Eggs</p>
+        </div>
+    
+        </div>
+    </div>
+
+    <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+      <i class="fas fa-shopping-basket"></i> Gaming Consoles
+    </a>
+
+    <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+      <!-- Groceries Submenu Items -->
+      <div class="d-flex flex-row ">
+          <div class="rempading ">
+              <img src="project/navbar-images/Freshfruit.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Fresh Fruit</p>
+          </div>
+          <div class="rempading">
+              <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+              <p class="text-center">Fresh Vegetables</p>
+          </div>
+          <div class="rempading">
+              <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Fresh & Cold Pressed Juices</p>
+          </div>
+          <div class="rempading ">
+            <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Bread</p>
+        </div>
+        <div class="rempading ">
+          <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+          <p class="text-center">Eggs</p>
+      </div>
+  
+      </div>
+  </div>
+
+  
+  <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+    <i class="fas fa-shopping-basket"></i> Cameras & Drones
+  </a>
+
+  <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+    <!-- Groceries Submenu Items -->
+    <div class="d-flex flex-row ">
+        <div class="rempading ">
+            <img src="project/navbar-images/Freshfruit.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Fresh Fruit</p>
+        </div>
+        <div class="rempading">
+            <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+            <p class="text-center">Fresh Vegetables</p>
+        </div>
+        <div class="rempading">
+            <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Fresh & Cold Pressed Juices</p>
+        </div>
+        <div class="rempading ">
+          <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+          <p class="text-center">Bread</p>
+      </div>
+      <div class="rempading ">
+        <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+        <p class="text-center">Eggs</p>
+    </div>
+
+    </div>
+</div>
+
+
+
+
+  </div>
+</li>
+
+
+
+                           <li class="nav-item dropdown dropright">
+  <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <img src="project/navbar-icons/responsive.png" alt="Electronic Accessories"> Electronic Accessories
+  </a>
+
+  <!-- Main Dropdown Menu for Groceries & Pets -->
+  <div class="dropdown-menu dropdown-menu1" aria-labelledby="groceriesPetsDropdown">
+
+    <!-- Groceries Submenu -->
+    <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+      <i class="fas fa-shopping-basket"></i> Mobile Accessories
+    </a>
+
+    <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+      <!-- Groceries Submenu Items -->
+        <div class="d-flex flex-row ">
+          <div class="rempading ">
+              <a href="https://www.daraz.pk/buy-fresh-produce/?spm=a2a0e.home.cate_1.1.6a274076hxJWzl">
+                <img src="project/navbar-images/Freshfruit.jpg" alt="Product 2" class="img-fluid">
+            </a>
+              <p class="text-center">Fresh Fruit</p>
+          </div>
+          <div class="rempading">
+            <a href="https://www.daraz.pk/buy-fresh-produce/?spm=a2a0e.home.cate_1.1.6a274076hxJWzl">
+              <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+              </a>
+              <p class="text-center">Fresh Vegetables</p>
+          </div>
+          <div class="rempading">
+            <a href="https://www.daraz.pk/buy-fresh-produce/?spm=a2a0e.home.cate_1.1.6a274076hxJWzl">
+            
+              <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+            </a>
+              <p class="text-center">Fresh & Cold Pressed Juices</p>
+          </div>
+          <div class="rempading ">
+            <a href="https://www.daraz.pk/buy-fresh-produce/?spm=a2a0e.home.cate_1.1.6a274076hxJWzl">
+            
+            <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+            </a>
+            <p class="text-center">Bread</p>
+        </div>
+        <div class="rempading ">
+          <a href="https://www.daraz.pk/buy-fresh-produce/?spm=a2a0e.home.cate_1.1.6a274076hxJWzl">
+            
+          <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+          </a>
+          <p class="text-center">Eggs</p>
+      </div>
+  
+      </div>
+  </div>
+
+    <!-- Pets Submenu -->
+    <a class="nav-link dropdown-toggle" href="#" id="petsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('petsSubmenu')">
+      <i class="fas fa-paw"></i> Headphones & Headsets
+    </a>
+    
+    <div class="dropdown-menu dropdown-menu2" id="petsSubmenu">
+    <!-- Pets Submenu Items -->
+    <div class="d-flex flex-row ">
+        <div class="rempading ">
+            <img src="carousal1.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Product 1</p>
+        </div>
+        <div class="rempading">
+            <img src="carousal2.jpg" alt="Product 2" class="img-fluid">
+            <p class="text-center">Product 2</p>
+        </div>
+        <div class="rempading">
+            <img src="path/to/your/image3.jpg" alt="Product 3" class="img-fluid">
+            <p class="text-center">Product 3</p>
+        </div>
+        <div class="rempading ">
+          <img src="carousal1.jpg" alt="Product 1" class="img-fluid">
+          <p class="text-center">Product 1</p>
+      </div>
+      <div class="rempading ">
+        <img src="carousal1.jpg" alt="Product 1" class="img-fluid">
+        <p class="text-center">Product 1</p>
+    </div>
+
+    </div>
+</div>
+
+
+
+    <!-- Groceries Submenu -->
+    <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+      <i class="fas fa-shopping-basket"></i> Wearable
+    </a>
+
+    <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+      <!-- Groceries Submenu Items -->
+      <div class="d-flex flex-row ">
+          <div class="rempading ">
+              <img src="project/navbar-images/Freshfruit.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Fresh Fruit</p>
+          </div>
+          <div class="rempading">
+              <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+              <p class="text-center">Fresh Vegetables</p>
+          </div>
+          <div class="rempading">
+              <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Fresh & Cold Pressed Juices</p>
+          </div>
+          <div class="rempading ">
+            <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Bread</p>
+        </div>
+        <div class="rempading ">
+          <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+          <p class="text-center">Eggs</p>
+      </div>
+  
+      </div>
+  </div>
+
+
+
+
+      <!-- Groceries Submenu -->
+      <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+        <i class="fas fa-shopping-basket"></i> Camera Accessories
+      </a>
+  
+      <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+        <!-- Groceries Submenu Items -->
+        <div class="d-flex flex-row ">
+            <div class="rempading ">
+                <img src="project/navbar-images/Freshfruit.jpg" alt="Product 1" class="img-fluid">
+                <p class="text-center">Fresh Fruit</p>
+            </div>
+            <div class="rempading">
+                <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+                <p class="text-center">Fresh Vegetables</p>
+            </div>
+            <div class="rempading">
+                <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+                <p class="text-center">Fresh & Cold Pressed Juices</p>
+            </div>
+            <div class="rempading ">
+              <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Bread</p>
+          </div>
+          <div class="rempading ">
+            <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Eggs</p>
+        </div>
+    
+        </div>
+    </div>
+
+    
+
+        <!-- Groceries Submenu -->
+        <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+          <i class="fas fa-shopping-basket"></i> Computer Accessories
+        </a>
+    
+        <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+          <!-- Groceries Submenu Items -->
+          <div class="d-flex flex-row ">
+              <div class="rempading ">
+                  <img src="project/navbar-images/Freshfruit.jpg" alt="Product 1" class="img-fluid">
+                  <p class="text-center">Fresh Fruit</p>
+              </div>
+              <div class="rempading">
+                  <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+                  <p class="text-center">Fresh Vegetables</p>
+              </div>
+              <div class="rempading">
+                  <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+                  <p class="text-center">Fresh & Cold Pressed Juices</p>
+              </div>
+              <div class="rempading ">
+                <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+                <p class="text-center">Bread</p>
+            </div>
+            <div class="rempading ">
+              <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Eggs</p>
+          </div>
+      
+          </div>
+      </div>
+
+      
+
+          <!-- Groceries Submenu -->
+    <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+      <i class="fas fa-shopping-basket"></i> Storage
+    </a>
+
+    <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+      <!-- Groceries Submenu Items -->
+      <div class="d-flex flex-row ">
+          <div class="rempading ">
+              <img src="project/navbar-images/Freshfruit.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Fresh Fruit</p>
+          </div>
+          <div class="rempading">
+              <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+              <p class="text-center">Fresh Vegetables</p>
+          </div>
+          <div class="rempading">
+              <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Fresh & Cold Pressed Juices</p>
+          </div>
+          <div class="rempading ">
+            <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Bread</p>
+        </div>
+        <div class="rempading ">
+          <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+          <p class="text-center">Eggs</p>
+      </div>
+  
+      </div>
+  </div>
+
+
+      <!-- Groceries Submenu -->
+      <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+        <i class="fas fa-shopping-basket"></i> Printers
+      </a>
+  
+      <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+        <!-- Groceries Submenu Items -->
+        <div class="d-flex flex-row ">
+            <div class="rempading ">
+                <img src="project/navbar-images/Freshfruit.jpg" alt="Product 1" class="img-fluid">
+                <p class="text-center">Fresh Fruit</p>
+            </div>
+            <div class="rempading">
+                <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+                <p class="text-center">Fresh Vegetables</p>
+            </div>
+            <div class="rempading">
+                <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+                <p class="text-center">Fresh & Cold Pressed Juices</p>
+            </div>
+            <div class="rempading ">
+              <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Bread</p>
+          </div>
+          <div class="rempading ">
+            <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Eggs</p>
+        </div>
+    
+        </div>
+    </div>
+
+    <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+      <i class="fas fa-shopping-basket"></i> Computer Components
+    </a>
+
+    <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+      <!-- Groceries Submenu Items -->
+      <div class="d-flex flex-row ">
+          <div class="rempading ">
+              <img src="project/navbar-images/Freshfruit.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Fresh Fruit</p>
+          </div>
+          <div class="rempading">
+              <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+              <p class="text-center">Fresh Vegetables</p>
+          </div>
+          <div class="rempading">
+              <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+              <p class="text-center">Fresh & Cold Pressed Juices</p>
+          </div>
+          <div class="rempading ">
+            <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Bread</p>
+        </div>
+        <div class="rempading ">
+          <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+          <p class="text-center">Eggs</p>
+      </div>
+  
+      </div>
+  </div>
+
+  
+  <a class="nav-link dropdown-toggle" href="#" id="groceriesPetsDropdown" role="button" data-toggle="dropdown" aria-expanded="false" onclick="toggleSubMenu('groceriesSubmenu')">
+    <i class="fas fa-shopping-basket"></i> Portable Speakers
+  </a>
+
+  <div class="dropdown-menu dropdown-menu2" id="groceriesSubmenu">
+    <!-- Groceries Submenu Items -->
+    <div class="d-flex flex-row ">
+        <div class="rempading ">
+            <img src="project/navbar-images/Freshfruit.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Fresh Fruit</p>
+        </div>
+        <div class="rempading">
+            <img src="project/navbar-images/freshvegetables.jpg" alt="Product 2" class="img-fluid">
+            <p class="text-center">Fresh Vegetables</p>
+        </div>
+        <div class="rempading">
+            <img src="project/navbar-images/juice.jpg" alt="Product 1" class="img-fluid">
+            <p class="text-center">Fresh & Cold Pressed Juices</p>
+        </div>
+        <div class="rempading ">
+          <img src="project/navbar-images/Bread.jpg" alt="Product 1" class="img-fluid">
+          <p class="text-center">Bread</p>
+      </div>
+      <div class="rempading ">
+        <img src="project/navbar-images/eggs.jpg" alt="Product 1" class="img-fluid">
+        <p class="text-center">Eggs</p>
+    </div>
+
+    </div>
+</div>
+
+
+  </div>
+</li>
+
+
+                      </ul>
+                    </div>
+                  </nav>
+
+                </div>
+
+            
+<!-- Carousel Div Starting from Here...  -->
+                <div class="col-md-8">
+
+                    <section class="daraz__carousel mt-5">
+                        <div
+                          id="carouselExampleIndicators"
+                          class="carousel slide"
+                          data-ride="carousel"
+                        >
+                          <ol class="carousel-indicators">
+                            <li
+                              data-target="#carouselExampleIndicators"
+                              data-slide-to="0"
+                              class="active daraz__round"
+                            ></li>
+                
+                            <li
+                              data-target="#carouselExampleIndicators"
+                              class="daraz__round"
+                              data-slide-to="1"
+                            ></li>
+                            <li
+                              data-target="#carouselExampleIndicators"
+                              class="daraz__round"
+                              data-slide-to="2"
+                            ></li>
+<li
+                              data-target="#carouselExampleIndicators"
+                              data-slide-to="3"
+                              class="active daraz__round"
+                            ></li>
+                <li
+                              data-target="#carouselExampleIndicators"
+                              data-slide-to="4"
+                              class="active daraz__round"
+                            ></li>
+                
+
+                          </ol>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active daraz-carousel-item">
+                              <img
+                                src="project/carousel-pictures/carousal1.jpg"
+                                class="d-block w-100"
+                                alt="..."
+                              />
+                            </div>
+                            <div class="carousel-item daraz-carousel-item">
+                              <img
+                                src="project/carousel-pictures/carousal2.jpg"
+                                class="d-block w-100"
+                                alt="..."
+                              />
+                            </div>
+                            <div class="carousel-item daraz-carousel-item">
+                              <img
+                                src="project/carousel-pictures/carousal3.jpg"
+                                class="d-block w-100"
+                                alt="..."
+                              />
+                            </div>
+
+ <div class="carousel-item daraz-carousel-item">
+                              <img
+                                src="project/carousel-pictures/carousal4.jpg"
+                                class="d-block w-100"
+                                alt="..."
+                              />
+
+                            </div>
+                             <div class="carousel-item daraz-carousel-item">
+                              <img
+                                src="project/carousel-pictures/carousal-5.png"
+                                class="d-block w-100"
+                                alt="..."
+                              />
+                            </div>
+
+                          </div>
+                          <a
+                            class="carousel-control-prev"
+                            href="#carouselExampleIndicators"
+                            role="button"
+                            data-slide="prev"
+                          >
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a
+                            class="carousel-control-next"
+                            href="#carouselExampleIndicators"
+                            role="button"
+                            data-slide="next"
+                          >
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </div>
+                      </section>
+
+                </div>
+
+        </div>
+
+      </div>
+
+     
+
+
+
+      <!-- Daraz giff -->
+     <section class="daraz__giff">
+      <div class="container mt-5 mb-5" style="padding-top: 66px; padding-left: 170px; ">
+          <a href="https://pages.daraz.pk/wow/gcp/daraz/daily/pk/blessed-friday-cyber-monday/big-friday-cyber-monday-sale?spm=a2a0e.home.campaignbanner.1.6a2740762QmTtU&scm=1003.4.icms-zebra-5029921-3021339.OTHER_6502744503_7751554" target="_blank">
+              <img src="project/carousel-pictures/carousal4.jpg" alt="Monday" style="width: 100%; height: auto; display: block;">
+          </a>
+      </div>
+  </section>
+
+
+      <!-- Daraz Category section -->
+    <section class="daraz__category mt-5 mb-5">
+      <div class="container-fluid"> <!-- Use container-fluid to make it full-width -->
+          <div class="full-width-flex">
+
+              <!-- Item 1 -->
+              <div class="categoryBtn">
+                  <div class="daraz__categoryList__content">
+                      <img class="rounded-circle" src="project/category-pictures/safe-payment.png" alt="Safe Payment" />
+                      <span>Safe Payments</span>
+                  </div>
+              </div>
+
+              <!-- Item 2 -->
+              <div class="categoryBtn">
+                  <div class="daraz__categoryList__content">
+                      <img class="rounded-circle" src="project/category-pictures/nationwide.png" alt="Nationwide Delivery" />
+                      <span>Nationwide Delivery</span>
+                  </div>
+              </div>
+
+              <!-- Item 3 -->
+              <div class="categoryBtn">
+                  <div class="daraz__categoryList__content">
+                      <img class="rounded-circle" src="project/category-pictures/freereturn.png" alt="Free & Easy Return" />
+                      <span>Free & Easy Return</span>
+                  </div>
+              </div>
+
+              <!-- Item 4 -->
+              <div class="categoryBtn">
+                  <div class="daraz__categoryList__content">
+                      <img class="rounded-circle " src="project/category-pictures/bestproduct.png" alt="Best Price Guaranteed" />
+                      <span>Best Price Guranted</span>
+                  </div>
+              </div>
+
+              <!-- Item 5 -->
+              <div class="categoryBtn">
+                  <div class="daraz__categoryList__content">
+                      <img  src="project/category-pictures/guranteed.png" alt="100% Authentic Products" >
+                      <span class="text"> 100% Authentic Products </span>
+                  </div>
+              </div>
+
+              <!-- Item 6 -->
+              <div class="categoryBtn">
+                  <div class="daraz__categoryList__content">
+                      <img class="rounded-circle mr-2" src="project/category-pictures/darazverified.png" alt="Daraz Verified" />
+                      <span>Daraz Verified </span>
+                      <div class="daraz__categoryList__icon ml-3">
+                        <i class="fas fa-chevron-right darazCategoryIcon"></i>
+                    </div>
+                  </div>
+              </div>
+
+          </div>
+      </div>
+  </section>
+
+
+      <!-- Flash Sale -->
+      <section class="daraz__flashSale mt-5 mb-5">
+        <div class="container">
+          <div class="row mt-3">
+            <h5>Flash Sale</h5>
+          </div>
+        </div>
+        
+        <div style="background-color: #fff" class="container">
+          <div
+            style="background-color: #fff; height: 70px"
+            class="row justify-content-between align-items-center m-2 pl-3 pr-3">
+            <div class="daraz__onSale">
+              <h6 style="color: #f57224">On Sale Now</h6>
+            </div>
+            <div
+              class="btn btn-outline-success daraz__shopeMore"
+              title="Flash Sale">
+              SHOPE MORE
+            </div>
+          </div>
+        </div>
+        
+        
+        <div class="daraz__flashSaleList align-items-stretch">
+
+          <!-- Card 1 -->
+          <div class="card" style="width: 12rem">
+            <a class="product-link-liststyle" href="http://localhost/daraz%20complete%20project/payment_method/pay.php" target="_blank">
+            <img
+              src="project/product-images/moringa-capsules-90.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Moringa Capsules 90 in Bottle - Organic Moringa Pills Capsules , Weight Loose ,مورنگا کیپسول
+              </p>
+              <p style="color: #f57224">Rs. 799</p>
+              <p><del>Rs. 1,500</del> <span>-47%</span></p>
+            </div>
+            </a>
+          </div>
+
+
+          <div class="card" style="width: 12rem">
+            <a class="product-link-liststyle" href="http://localhost/daraz%20complete%20project/payment_method/pay.php" target="_blank">
+            <img
+              src="project/product-images/moringa-capsules-90.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Moringa Capsules 90 in Bottle - Organic Moringa Pills Capsules , Weight Loose ,مورنگا کیپسول
+              </p>
+              <p style="color: #f57224">Rs. 799</p>
+              <p><del>Rs. 1,500</del> <span>-47%</span></p>
+            </div>
+            </a>
+          </div>
+
+
+
+          <!-- Card 2 -->
+          <div class="card" style="width: 12rem">
+            <a class="product-link-liststyle" href="https://www.daraz.pk/products/m8-smart-band-d20-smart-bracelet-smartwatch-band-w26-pro-max-smart-watch-with-earphones-w26-pro-max-2in1-double-strap-series-m7-smartwatch-m6-band-2023-i434002547-s2119045402.html?spm=a2a0e.searchlist.sku.1.56b6651bsMQ897&search=1" target="_blank">
+            <img
+              src="project/product-images/m8-smart-watch.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">
+                M8 Smart Band & d20 Smart Bracelet SMARTWATCH BAND W26 pro max Smart Watch with Earphones W26 PRO Max 2in1
+              </p>
+              <p style="color: #f57224">Rs. 1,111</p>
+              <p><del>Rs. 2,999</del> <span>-63%</span></p>
+            </div>
+            </a>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="card" style="width: 12rem">
+            <a class="product-link-liststyle" href="https://www.daraz.pk/products/pack-of-4-3d-wooden-wall-art-wall-decor-wooden-wall-decoration-laser-cut-decorative-gift-stylish-design-office-living-room-i-decorating-items-i-decorating-items-for-home-i-decoration-pieces-for-room-i438566612-s2123129799.html?spm=a2a0e.searchlist.sku.1.4e632893wYEFbr&search=1" target="_blank">
+            <img
+              src="project/product-images/3d-wooden-wall-art-4pack.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Pack of 4, 3D Wooden Wall Art , Wall Décor , Wooden Wall Decoration
+              </p>
+              <p style="color: #f57224">Rs. 349</p>
+              <p><del>Rs. 600</del> <span>-42%</span></p>
+            </div>
+            </a>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="card" style="width: 12rem">
+            <a class="product-link-liststyle" href="https://www.daraz.pk/products/-i266479479-s1482127786.html?spm=a2a0e.searchlist.sku.1.2bc5555aSw1AQ2&search=1" target="_blank">
+            <img
+              src="project/product-images/bluetooth-handfree-wireless.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Blutooth Handfree Wireless Bluetooth Headset Good Quality Bluetooth 
+              </p>
+              <p style="color: #f57224">Rs. 320</p>
+              <p><del>Rs. 1,000</del> <span>-68%</span></p>
+            </div>
+            </a>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="card" style="width: 12rem">
+            <a class="product-link-liststyle" href="https://www.daraz.pk/products/best-leather-wallet-for-men-stylish-leather-purse-for-men-i267759892-s1482593775.html?spm=a2a0e.searchlist.sku.17.37cc5738aM9Wvs&search=1" target="_blank">
+            <img
+              src="project/product-images/mens-wallet.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Wallet for Men Branded - Short PU Cardholder Wallet for Boys
+              </p>
+              <p style="color: #f57224">Rs. 398</p>
+              <p><del>Rs. 499</del> <span>-20%</span></p>
+            </div>
+            </a>
+          </div>
+          
+          <!-- Card 6 -->
+          <div class="card" style="width: 12rem">
+            <a class="product-link-liststyle" href="https://www.daraz.pk/products/-i433806826-s2081543284.html?spm=a2a0e.searchlist.sku.3.3ec26723JEaJsL&search=1" target="_blank">
+            <img
+              src="project/product-images/track-suit-men.png"
+              class="card-img-top"
+              alt="..."/>
+            <div class="card-body">
+              <p class="card-text">
+                Men High Quality Winter Markhor Printed Hoodie + Trouser Track Suit for men
+              </p>
+              <p style="color: #f57224">Rs. 1,450</p>
+              <p><del>Rs. 2,799</del> <span>-48%</span></p>
+            </div>
+            </a>
+          </div>
+        </div>
+
+        
+            
+          </div>
+        </div>
+      </section>
+
+
+      <!-- Daraz Sub Category -->
+      <section class="mt-4 mb-4">
+        <div class="container">
+          <div class="row">
+            <h4>Categories</h4>
+          </div>
+        </div>
+      </section>
+      <div class="row">
+        <div class="hp-mod-card-content J_CategoriesItems">
+          <div class="card-categories-ul">
+            <div class="card-categories-li hp-mod-card-hover align-left">
+              <a
+                class="card-categories-li-content"
+                href="https://www.daraz.pk/handwashes/?from=sideFilters&q=hand%20sanitizers%20category"
+                exp-tracking="category"
+                algo_scm="1007.17253.158061.0"
+                trackinfo="a749c939-079e-4e0d-ab16-94dcb21acd5f__10002192__130024452__static__0.1__158061__7253"
+                clicktrackinfo="a749c939-079e-4e0d-ab16-94dcb21acd5f__10002192__130024452__static__0.1__158061__7253"
+                title="Hand"
+                washes=""
+                data-aplus-ae="x1_547c2df1"
+                data-spm-anchor-id="a2a0e.home.categories.1"
+              >
+                <div class="card-categories-image-container">
+                  <img
+                    class="image"
+                    src="https://static-01.daraz.com.bd/p/500377e8ff34167094c5dc9ae98e7927.jpg"
+                    alt="Hand Washes"
+                    data-spm-anchor-id="a2a0e.home.categories.i0.53014591PVCWg3"
+                  />
+                </div>
+                <div class="card-categories-name">
+                  <span class="text"> Hand Washes </span>
+                </div>
+              </a>
+            </div>
+
+            <div class="card-categories-li hp-mod-card-hover align-left">
+              <a
+                class="card-categories-li-content"
+                href="https://www.daraz.pk/soaps-wash/?from=sideFilters&q=body%20soaps%20&%20shower%20gels"
+                exp-tracking="category"
+                algo_scm="1007.17253.158061.0"
+                trackinfo="a749c939-079e-4e0d-ab16-94dcb21acd5f__1471__132288438__static__0.07466666666666666__158061__7253"
+                clicktrackinfo="a749c939-079e-4e0d-ab16-94dcb21acd5f__1471__132288438__static__0.07466666666666666__158061__7253"
+                title="Body"
+                soaps=""
+                &amp;=""
+                shower=""
+                gels=""
+                data-spm-anchor-id="a2a0e.home.categories.2"
+                data-aplus-ae="x2_6d3dd24c"
+              >
+                <div class="card-categories-image-container">
+                  <img
+                    class="image"
+                    src="https://static-01.daraz.com.bd/p/5194150d361109549c315114799d04a1.jpg"
+                    alt="Body Soaps &amp; Shower Gels"
+                  />
+                </div>
+                <div class="card-categories-name">
+                  <span class="text"> Body Soaps &amp; Shower Gels </span>
+                </div>
+              </a>
+            </div>
+
+            <div class="card-categories-li hp-mod-card-hover align-left">
+              <a
+                class="card-categories-li-content"
+                href="https://www.daraz.pk/smartphones/?from=sideFilters&q=mobiles"
+                exp-tracking="category"
+                algo_scm="1007.17253.158061.0"
+                trackinfo="a749c939-079e-4e0d-ab16-94dcb21acd5f__3__132092624__static__0.044__158061__7253"
+                clicktrackinfo="a749c939-079e-4e0d-ab16-94dcb21acd5f__3__132092624__static__0.044__158061__7253"
+                title="Mobiles"
+                data-spm-anchor-id="a2a0e.home.categories.3"
+                data-aplus-ae="x3_f5f08ea"
+              >
+                <div class="card-categories-image-container">
+                  <img
+                    class="image"
+                    src="https://static-01.daraz.com.bd/p/799e87227c6c58ab92def7f0a83bcc86.jpg"
+                    alt="Mobiles"
+                  />
+                </div>
+                <div class="card-categories-name">
+                  <span class="text"> Mobiles </span>
+                </div>
+              </a>
+            </div>
+
+            <div class="card-categories-li hp-mod-card-hover align-left">
+              <a
+                class="card-categories-li-content"
+                href="https://www.daraz.pk/study-aid-exam-prep/?from=sideFilters&q=study%20aids%20&%20exam"
+                exp-tracking="category"
+                algo_scm="1007.17253.158061.0"
+                trackinfo="a749c939-079e-4e0d-ab16-94dcb21acd5f__7552__126314292__static__0.018666666666666665__158061__7253"
+                clicktrackinfo="a749c939-079e-4e0d-ab16-94dcb21acd5f__7552__126314292__static__0.018666666666666665__158061__7253"
+                title="Study"
+                aids=""
+                &amp;=""
+                exam=""
+                preparations=""
+                data-spm-anchor-id="a2a0e.home.categories.4"
+                data-aplus-ae="x4_276d77de"
+              >
+                <div class="card-categories-image-container">
+                  <img
+                    class="image"
+                    src="https://static-01.daraz.com.bd/p/d1477b2db7d2eee7b2066b6a09bb42ba.jpg"
+                    alt="Study Aids &amp; Exam Preparations"
+                  />
+                </div>
+                <div class="card-categories-name">
+                  <span class="text"> Study Aids &amp; Exam Preparations </span>
+                </div>
+              </a>
+            </div>
+
+            <div class="card-categories-li hp-mod-card-hover align-left">
+              <a
+                class="card-categories-li-content"
+                href="https://www.daraz.pk/bathroom-baskets-trays/?from=sideFilters&q=Laundry%20Baskets%20&%20Hampers"
+                exp-tracking="category"
+                algo_scm="1007.17253.158061.0"
+                trackinfo="a749c939-079e-4e0d-ab16-94dcb21acd5f__10000543__121062312__static__0.018666666666666665__158061__7253"
+                clicktrackinfo="a749c939-079e-4e0d-ab16-94dcb21acd5f__10000543__121062312__static__0.018666666666666665__158061__7253"
+                title="Laundry"
+                baskets=""
+                &amp;=""
+                hampers=""
+                data-spm-anchor-id="a2a0e.home.categories.5"
+                data-aplus-ae="x5_1b4a351e"
+              >
+                <div class="card-categories-image-container">
+                  <img
+                    class="image"
+                    src="https://static-01.daraz.com.bd/p/66a1ae4686579dbed6a89b711f38d284.jpg"
+                    alt="Laundry Baskets &amp; Hampers"
+                  />
+                </div>
+                <div class="card-categories-name">
+                  <span class="text"> Laundry Baskets &amp; Hampers </span>
+                </div>
+              </a>
+            </div>
+
+            <div class="card-categories-li hp-mod-card-hover align-left">
+              <a
+                class="card-categories-li-content"
+                href="https://www.daraz.pk/eyewear-sunglasses-168/?from=sideFilters&q=subglasses"
+                exp-tracking="category"
+                algo_scm="1007.17253.158061.0"
+                trackinfo="a749c939-079e-4e0d-ab16-94dcb21acd5f__7692__145388805__static__0.018666666666666665__158061__7253"
+                clicktrackinfo="a749c939-079e-4e0d-ab16-94dcb21acd5f__7692__145388805__static__0.018666666666666665__158061__7253"
+                title="Sunglasses"
+                data-spm-anchor-id="a2a0e.home.categories.6"
+                data-aplus-ae="x6_14ae03a3"
+              >
+                <div class="card-categories-image-container">
+                  <img
+                    class="image"
+                    src="https://static-01.daraz.com.bd/p/03e0a0b07e3b4b9109a995f7dde56474.jpg"
+                    alt="Sunglasses"
+                  />
+                </div>
+                <div class="card-categories-name">
+                  <span class="text"> Sunglasses </span>
+                </div>
+              </a>
+            </div>
+
+            <div class="card-categories-li hp-mod-card-hover align-left">
+              <a
+                class="card-categories-li-content"
+                href="https://www.daraz.pk/post-its/?from=sideFilters&q=Post-it%20Notes,%20Flags%20&%20Tabs"
+                exp-tracking="category"
+                algo_scm="1007.17253.158061.0"
+                trackinfo="a749c939-079e-4e0d-ab16-94dcb21acd5f__10000661__100316137__static__0.018666666666666665__158061__7253"
+                clicktrackinfo="a749c939-079e-4e0d-ab16-94dcb21acd5f__10000661__100316137__static__0.018666666666666665__158061__7253"
+                title="Post-it"
+                notes,=""
+                flags=""
+                &amp;=""
+                tabs=""
+                data-spm-anchor-id="a2a0e.home.categories.7"
+                data-aplus-ae="x7_15867bbb"
+              >
+                <div class="card-categories-image-container">
+                  <img
+                    class="image"
+                    src="https://static-01.daraz.com.bd/original/6450a167fceeaf59b80885482f1ac132.jpg"
+                    alt="Post-it Notes, Flags &amp; Tabs"
+                  />
+                </div>
+                <div class="card-categories-name">
+                  <span class="text"> Post-it Notes, Flags &amp; Tabs </span>
+                </div>
+              </a>
+            </div>
+
+            <div class="card-categories-li hp-mod-card-hover align-left">
+              <a
+                class="card-categories-li-content"
+                href="https://www.daraz.pk/chef-knives/?from=sideFilters&q=cooking%20knife%20sets"
+                exp-tracking="category"
+                algo_scm="1007.17253.158061.0"
+                trackinfo="a749c939-079e-4e0d-ab16-94dcb21acd5f__10000789__133154926__static__0.018666666666666665__158061__7253"
+                clicktrackinfo="a749c939-079e-4e0d-ab16-94dcb21acd5f__10000789__133154926__static__0.018666666666666665__158061__7253"
+                title="Cooking"
+                knife=""
+                sets=""
+                data-spm-anchor-id="a2a0e.home.categories.8"
+                data-aplus-ae="x8_b0a414e"
+              >
+                <div class="card-categories-image-container">
+                  <img
+                    class="image"
+                    src="https://static-01.daraz.com.bd/p/2fad687eba0d58ac5480cdc378165073.jpg"
+                    alt="Cooking Knife Sets"
+                  />
+                </div>
+                <div class="card-categories-name">
+                  <span class="text"> Cooking Knife Sets </span>
+                </div>
+              </a>
+            </div>
+
+            <div class="card-categories-li hp-mod-card-hover align-left">
+              <a
+                class="card-categories-li-content"
+                href="https://www.daraz.pk/shop-storage-bathroom-shelves/?from=sideFilters&q=bathroom%20shelving"
+                exp-tracking="category"
+                algo_scm="1007.17253.158061.0"
+                trackinfo="a749c939-079e-4e0d-ab16-94dcb21acd5f__10000394__54224__static__0.018666666666666665__158061__7253"
+                clicktrackinfo="a749c939-079e-4e0d-ab16-94dcb21acd5f__10000394__54224__static__0.018666666666666665__158061__7253"
+                title="Bathroom"
+                shelving=""
+                data-spm-anchor-id="a2a0e.home.categories.9"
+                data-aplus-ae="x9_7ac357aa"
+              >
+                <div class="card-categories-image-container">
+                  <img
+                    class="image"
+                    src="https://static-01.daraz.com.bd/original/0de9382b8461dc877fe340aca22c2fc6.jpg"
+                    alt="Bathroom Shelving"
+                  />
+                </div>
+                <div class="card-categories-name">
+                  <span class="text"> Bathroom Shelving </span>
+                </div>
+              </a>
+            </div>
+
+            <div class="card-categories-li hp-mod-card-hover align-left">
+              <a
+                class="card-categories-li-content"
+                href="https://www.daraz.pk/mens-jackets/?spm=a2a0e.home.categories.11.5bc64076hcUlmD&up_id=2176140&clickTrackInfo=b5c45c61-0805-46f8-bd7d-5a3ee9cd3331__4299__2176140__static__0.0999376075005902__platform__ANDROID__scm__1007.40350.322036.__brandID__0__SellerID__0__IsHitHot__1__IfCart__0__IfOrder__0__IfLeafCatCart__0__IfLeafCatOrd__0__IfBrandCart__0__IfBrandOrd__0__IfCartSeller__0__IfOrdSeller__0__item_sold__0__GmvNow__0.0__item_day_sold__0__ctr__0.0__cvr__0.0__rank__0.0__322036__30350&from=hp_categories&item_id=2176140&version=v2"
+                exp-tracking="category"
+                algo_scm="1007.17253.158061.0"
+                trackinfo="a749c939-079e-4e0d-ab16-94dcb21acd5f__10260__122867710__static__0.018666666666666665__158061__7253"
+                clicktrackinfo="a749c939-079e-4e0d-ab16-94dcb21acd5f__10260__122867710__static__0.018666666666666665__158061__7253"
+                title="winter jackets"
+                sets=""
+                data-spm-anchor-id="a2a0e.home.categories.10"
+                data-aplus-ae="x10_771620c5"
+              >
+                <div class="card-categories-image-container">
+                  <img
+                    class="image"
+                    src="https://static-01.daraz.pk/p/519f623b3597f2d8b78b8d9b438d4206.jpg"
+                    alt="Winter Jackets"
+                  />
+                </div>
+                <div class="card-categories-name">
+                  <span class="text"> Winter Jackets &amp; Coats </span>
+                </div>
+              </a>
+            </div>
+
+            <div class="card-categories-li hp-mod-card-hover align-left">
+              <a
+                class="card-categories-li-content"
+                href="https://www.daraz.pk/calendars-2/?from=sideFilters&q=wall%20calendar"
+                exp-tracking="category"
+                algo_scm="1007.17253.158061.0"
+                trackinfo="a749c939-079e-4e0d-ab16-94dcb21acd5f__7572__148288804__static__0.018666666666666665__158061__7253"
+                clicktrackinfo="a749c939-079e-4e0d-ab16-94dcb21acd5f__7572__148288804__static__0.018666666666666665__158061__7253"
+                title="Wall"
+                calendars=""
+                data-spm-anchor-id="a2a0e.home.categories.11"
+                data-aplus-ae="x11_79a3360b"
+              >
+                <div class="card-categories-image-container">
+                  <img
+                    class="image"
+                    src="https://static-01.daraz.com.bd/p/c596d723170063f9bf51466fdb7f3a09.jpg"
+                    alt="Wall calendars"
+                  />
+                </div>
+                <div class="card-categories-name">
+                  <span class="text"> Wall calendars </span>
+                </div>
+              </a>
+            </div>
+
+            <div class="card-categories-li hp-mod-card-hover align-left">
+              <a
+                class="card-categories-li-content"
+                href="https://www.daraz.pk/catalog/?q=necklaces&_keyori=ss&from=input&spm=a2a0e.searchlist.search.go.30ce1b22qRnitC"
+                exp-tracking="category"
+                algo_scm="1007.17253.158061.0"
+                trackinfo="a749c939-079e-4e0d-ab16-94dcb21acd5f__10001665__136940313__static__0.018666666666666665__158061__7253"
+                clicktrackinfo="a749c939-079e-4e0d-ab16-94dcb21acd5f__10001665__136940313__static__0.018666666666666665__158061__7253"
+                title="Necklaces"
+                data-spm-anchor-id="a2a0e.home.categories.12"
+                data-aplus-ae="x12_d11da8c"
+              >
+                <div class="card-categories-image-container">
+                  <img
+                    class="image"
+                    src="https://static-01.daraz.com.bd/p/8eaedb6f26d4e2989ecf7ee6d9f8ba97.png"
+                    alt="Necklaces"
+                  />
+                </div>
+                <div class="card-categories-name">
+                  <span class="text"> Necklaces </span>
+                </div>
+              </a>
+            </div>
+
+            <div class="card-categories-li hp-mod-card-hover align-left">
+              <a
+                class="card-categories-li-content"
+                href="https://www.daraz.pk/catalog/?q=womens+fashion&_keyori=ss&from=input&spm=a2a0e.searchlist.search.go.dc1e2193fvePBy"
+                exp-tracking="category"
+                algo_scm="1007.17253.158061.0"
+                trackinfo="a749c939-079e-4e0d-ab16-94dcb21acd5f__20000046__116150403__static__0.018666666666666665__158061__7253"
+                clicktrackinfo="a749c939-079e-4e0d-ab16-94dcb21acd5f__20000046__116150403__static__0.018666666666666665__158061__7253"
+                title="Womens"
+                fashion=""
+                data-spm-anchor-id="a2a0e.home.categories.13"
+                data-aplus-ae="x13_54458154"
+              >
+                <div class="card-categories-image-container">
+                  <img
+                    class="image"
+                    src="https://static-01.daraz.com.bd/p/edb58916713a3f31f78cb5825debe412.jpg"
+                    alt="Womens Fashion"
+                  />
+                </div>
+                <div class="card-categories-name">
+                  <span class="text"> Womens Fashion </span>
+                </div>
+              </a>
+            </div>
+
+            <div class="card-categories-li hp-mod-card-hover align-left">
+              <a
+                class="card-categories-li-content"
+                href="https://www.daraz.pk/dinnerware-sets1/?from=sideFilters&q=dining%20sets"
+                exp-tracking="category"
+                algo_scm="1007.17253.158061.0"
+                trackinfo="a749c939-079e-4e0d-ab16-94dcb21acd5f__10000568__100124556__static__0.018666666666666665__158061__7253"
+                clicktrackinfo="a749c939-079e-4e0d-ab16-94dcb21acd5f__10000568__100124556__static__0.018666666666666665__158061__7253"
+                title="Dining"
+                sets=""
+                data-spm-anchor-id="a2a0e.home.categories.14"
+                data-aplus-ae="x14_7e149480"
+              >
+                <div class="card-categories-image-container">
+                  <img
+                    class="image"
+                    src="https://static-01.daraz.com.bd/original/fd501bcb19b8b80d733f41c30b499f41.jpg"
+                    alt="Dining Sets"
+                  />
+                </div>
+                <div class="card-categories-name">
+                  <span class="text"> Dining Sets </span>
+                </div>
+              </a>
+            </div>
+
+            <div class="card-categories-li hp-mod-card-hover align-left">
+              <a
+                class="card-categories-li-content"
+                href="https://www.daraz.pk/catalog/?q=necklaces&_keyori=ss&from=input&spm=a2a0e.searchlist.search.go.7940f320t5FbPC"
+                exp-tracking="category"
+                algo_scm="1007.17253.158061.0"
+                trackinfo="a749c939-079e-4e0d-ab16-94dcb21acd5f__9123__153730419__static__0.018666666666666665__158061__7253"
+                clicktrackinfo="a749c939-079e-4e0d-ab16-94dcb21acd5f__9123__153730419__static__0.018666666666666665__158061__7253"
+                title="Necklaces"
+                data-spm-anchor-id="a2a0e.home.categories.15"
+                data-aplus-ae="x15_3bf0fd9f"
+              >
+                <div class="card-categories-image-container">
+                  <img
+                    class="image"
+                    src="https://static-01.daraz.com.bd/p/0c681ddd28807c76ee39643d1a01673c.jpg"
+                    alt="Necklaces"
+                  />
+                </div>
+                <div class="card-categories-name">
+                  <span class="text"> Necklaces </span>
+                </div>
+              </a>
+            </div>
+
+            <div class="card-categories-li hp-mod-card-hover align-left">
+              <a
+                class="card-categories-li-content"
+                href="https://www.daraz.pk/candles-candle-holders/?from=sideFilters&q=candle%20&%20candle%20holders"
+                exp-tracking="category"
+                algo_scm="1007.17253.158061.0"
+                trackinfo="a749c939-079e-4e0d-ab16-94dcb21acd5f__10000434__102944634__static__0.018666666666666665__158061__7253"
+                clicktrackinfo="a749c939-079e-4e0d-ab16-94dcb21acd5f__10000434__102944634__static__0.018666666666666665__158061__7253"
+                title="Candles"
+                &amp;=""
+                candleholders=""
+                data-spm-anchor-id="a2a0e.home.categories.16"
+                data-aplus-ae="x16_337b1898"
+              >
+                <div class="card-categories-image-container">
+                  <img
+                    class="image"
+                    src="https://static-01.daraz.com.bd/p/a94a34c3cfa872968eb755ca463e30e3.jpg"
+                    alt="Candles &amp; Candleholders"
+                  />
+                </div>
+                <div class="card-categories-name">
+                  <span class="text"> Candles &amp; Candleholders </span>
+                </div>
+                
+              </a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      
+      <!-- Flash Sale -->
+      <section class="daraz__flashSale mt-5 mb-5">
+        <div class="container">
+          <div class="row mt-3">
+            <h5>Just For You</h5>
+          </div>
+        </div>
+
+<!-- First row of products (Just for you)-->
+        <div class="daraz__flashSaleList align-items-stretch">
+          <div class="card" style="width: 12rem;">
+            <a class="product-link-liststyle" href="https://www.daraz.pk/products/360-i317865147-s1685905632.html?spm=a2a0e.searchlist.sku.1.3f5672755W4KN1&search=1" target="_blank">
+            <img
+              src="project/product-images/fan-plastic-faucet.png"
+              class="card-img-top"
+              alt="..."/>
+            <div class="card-body">
+              <p class="card-text">
+                BeautyDeals- New Fan Faucet Plastic Faucet Tap Water Health Filter with Clip
+              </p>
+              <p style="color: #f57224">Rs. 169</p>
+              <p><del>Rs. 199</del> <span>-15%</span></p>
+            </div>
+            </a>
+          </div>
+
+          <div class="card" style="width: 12rem">
+            <a class="product-link-liststyle" href="https://www.daraz.pk/products/happy-birthday-1-1-30-5-i228425750-s1448933845.html?spm=a2a0e.searchlist.sku.1.26b53418A5fu34&search=1" target="_blank">
+            <img
+              src="project/product-images/happy-birthday-decoration-theme.png"
+              class="card-img-top"
+              alt="..."/>
+            <div class="card-body">
+              <p class="card-text">
+                Happy Birthday Theme (1Birthday Banner+1Back Curtain+30Balloons +5 Confetti Balloons) Birthday Accessories
+              </p>
+              <p style="color: #f57224">Rs. 399</p>
+              <p><del>Rs. 599</del> <span>-33%</span></p>
+            </div>
+            </a>
+          </div>
+
+          <div class="card" style="width: 12rem">
+            <a class="product-link-liststyle" href="https://www.daraz.pk/products/28-led-e27-led-led-ac85-265v-i429846596-s2047108879.html?spm=a2a0e.searchlist.sku.1.49cc2e9bWNqp6Z&search=1" target="_blank">
+            <img
+              src="project/product-images/fan-shape-led-bulb.png"
+              class="card-img-top"
+              alt="..."/>
+            <div class="card-body">
+              <p class="card-text">
+                28W Foldable LED Bulb E27 Fan Blade LED Lamp Led Light Bulb Room Garage Lighting AC85-265V For Home Ceiling Light Bulbs
+              </p>
+              <p style="color: #f57224">Rs. 639</p>
+              <p><del>Rs. 1,350</del> <span>-53%</span></p>
+            </div>
+            </a>
+          </div>
+
+          <div class="card" style="width: 12rem">
+            <a class="product-link-liststyle" href="https://www.daraz.pk/products/m10-m90-tws-airpods-_-with-super-sound-high-quality-touch-sensors-true-stereo-headphones-with-built-in-mic-10m-transmission-bluetooth-wireless-earbuds-charging-case-sport-headset-for-all-bluetooth-smart-devices-i269872768-s1970730040.html?spm=a2a0e.searchlist.sku.1.672b6c55YVQeUr&search=1" target="_blank">
+            <img
+              src="project/product-images/airpods-tws-i12.png"
+              class="card-img-top"
+              alt="..."/>
+            <div class="card-body">
+              <p class="card-text">
+                Original M10 & M90 Airpods TWS i12 Double Wireless tws Bluetooth Hand Free
+              </p>
+              <p style="color: #f57224">Rs. 1,095</p>
+              <p><del>Rs. 5,000</del> <span>-78%</span></p>
+            </div>
+            </a>
+          </div>
+
+          <div class="card" style="width: 12rem">
+            <a class="product-link-liststyle" href="https://www.daraz.pk/products/dotz-brand-decorative-butterfly-wall-shelf-decoration-candlestick-wall-decor-ideas-wooden-wall-shelves-i422320442-s2119068640.html?spm=a2a0e.searchlist.sku.3.5cae39bbXOrfhW&search=1" target="_blank">
+            <img
+              src="project/product-images/decorative-butterfly-wall-shelf.png"
+              class="card-img-top"
+              alt="..."/>
+            <div class="card-body">
+              <p class="card-text">
+                Decorative Butterfly Wall Shelf, Decoration Candlestick, Wall Décor Ideas, Wooden Wall Shelves
+              </p>
+              <p style="color: #f57224">Rs. 249</p>
+              <p><del>Rs. 799</del> <span>-69%</span></p>
+            </div>
+          </a>
+          </div>
+
+          <div class="card" style="width: 12rem">
+            <a class="product-link-liststyle" href="https://www.daraz.pk/products/3-i210860921-s1482944090.html?spm=a2a0e.searchlist.sku.5.2a9242518SkZFf&search=1" target="_blank">
+            <img
+              src="project/product-images/slim-card-holder-wallet-mens.png"
+              class="card-img-top"
+              alt="..."/>
+            <div class="card-body">
+              <p class="card-text">
+                Leather Long Wallet For Men Slim Money Mobile Wallet Card Holder ( 3 DESIGNS)
+              </p>
+              <p style="color: #f57224">Rs. 559</p>
+              <p><del>Rs. 999</del> <span>-44%</span></p>
+            </div>
+            </a>
+          </div>
+        </div>
+
+<!-- second row of products (Just for you)-->
+        <div class="daraz__flashSaleList align-items-stretch">
+          <div class="card" style="width: 12rem">
+            <a class="product-link-liststyle" href="https://www.daraz.pk/products/-i434374259-s2083036425.html?spm=a2a0e.home.just4u.8.5bc64076gvJ5b7&scm=1007.28811.367821.0&pvid=9e52dad2-03e4-4eef-97f2-501afa8b6d14&clickTrackInfo=pvid%3A9e52dad2-03e4-4eef-97f2-501afa8b6d14%3Bchannel_id%3A0000%3Bmt%3Ahot%3Bitem_id%3A434374259%3B" target="_blank">
+            <img
+              src="project/product-images/white-shoes-mens.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">
+                white shoes for men sneakers for men running shoes for men comfy shoes
+              </p>
+              <p style="color: #f57224">Rs. 1,199</p>
+              <p><del>Rs. 2,500</del> <span>-52%</span></p>
+            </div>
+            </a>
+          </div>
+          
+
+          <div class="card" style="width: 12rem">
+            <a  class="product-link-liststyle" href="https://www.daraz.pk/products/-i428872071-s2039338163.html?spm=a2a0e.home.just4u.10.5bc64076gvJ5b7&scm=1007.28811.367821.0&pvid=9e52dad2-03e4-4eef-97f2-501afa8b6d14&clickTrackInfo=pvid%3A9e52dad2-03e4-4eef-97f2-501afa8b6d14%3Bchannel_id%3A0000%3Bmt%3Ahot%3Bitem_id%3A428872071%3B" target="_blank">
+            <img
+              src="project/product-images/multifunctional-bag-for-babies.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Multifunctional baby Mummy Maternity Nappy Diapers Bag Large Capacity Baby Bag Travel Backpack Diaper Organizer Nursing Care 
+              </p>
+              <p style="color: #f57224">Rs. 975</p>
+              <p><del>Rs. 2,999</del> <span>-67%</span></p>
+            </div>
+            </a>
+          </div>
+
+
+          <div class="card" style="width: 12rem">
+            <a  class="product-link-liststyle" href="https://www.daraz.pk/products/4-i434408693-s2083091110.html?spm=a2a0e.home.just4u.11.5bc64076gvJ5b7&scm=1007.28811.367821.0&pvid=9e52dad2-03e4-4eef-97f2-501afa8b6d14&clickTrackInfo=pvid%3A9e52dad2-03e4-4eef-97f2-501afa8b6d14%3Bchannel_id%3A0000%3Bmt%3Ahot%3Bitem_id%3A434408693%3B" target="_blank">
+            <img
+              src="project/product-images/multipurpose-4compartments-box.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Taste Time Multi Purpose 4 Compartments Box (Airtight) For Dry Fruits/Spices/Jewellery/Gravy /lunch 
+              </p>
+              <p style="color: #f57224">Rs. 399</p>
+              <p><del>Rs. 500</del> <span>-20%</span></p>
+            </div>
+            </a>
+          </div>
+
+
+          <div class="card" style="width: 12rem">
+            <a  class="product-link-liststyle" href="https://www.daraz.pk/products/48-colors-eyeshadow-palette-mate-shimmer-water-proof-long-lasting-glitter-eyeshadow-powder-eyes-cosmetic-kit-i268787309-s1483006572.html?spm=a2a0e.home.just4u.12.5bc64076gvJ5b7&scm=1007.28811.367821.0&pvid=9e52dad2-03e4-4eef-97f2-501afa8b6d14&clickTrackInfo=pvid%3A9e52dad2-03e4-4eef-97f2-501afa8b6d14%3Bchannel_id%3A0000%3Bmt%3Ahot%3Bitem_id%3A268787309%3B" target="_blank">
+            <img
+              src="project/product-images/48colors-eyeshadow-pallete.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">
+                48 Colors Eyeshadow Palette Mate Shimmer Water Proof Long Lasting Glitter Eyeshadow Powder Eyes Cosmetic Kit
+              </p>
+              <p style="color: #f57224">Rs. 599</p>
+              <p><del>Rs. 899</del> <span>-33%</span></p>
+            </div>
+            </a>
+          </div>
+
+
+          <div class="card" style="width: 12rem">
+            <a  class="product-link-liststyle" href="https://www.daraz.pk/products/13t-12gb-256gb-1-pta-i433497804-s2080954311.html?spm=a2a0e.home.just4u.14.5bc64076gvJ5b7&scm=1007.28811.367821.0&pvid=9e52dad2-03e4-4eef-97f2-501afa8b6d14&clickTrackInfo=pvid%3A9e52dad2-03e4-4eef-97f2-501afa8b6d14%3Bchannel_id%3A0000%3Bmt%3Ahot%3Bitem_id%3A433497804%3B" target="_blank">
+            <img
+              src="project/product-images/xiaomi-13t-mobile.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Xiaomi 13T (12GB-256GB) PTA Approved With Official 1 Year Warranty
+              </p>
+              <p style="color: #f57224">Rs. 169,999</p>
+            </div>
+            </a>
+          </div>
+
+
+          <div class="card" style="width: 12rem">
+            <a  class="product-link-liststyle" href="https://www.daraz.pk/products/plug-in-led-night-light-mini-usb-led-light-flexible-usb-led-ambient-light-mini-usb-led-light-led-portable-car-bulb-indoor-outdoor-reading-sleep-i386295234-s1908368806.html?spm=a2a0e.home.just4u.16.5bc64076gvJ5b7&scm=1007.28811.367821.0&pvid=9e52dad2-03e4-4eef-97f2-501afa8b6d14&clickTrackInfo=pvid%3A9e52dad2-03e4-4eef-97f2-501afa8b6d14%3Bchannel_id%3A0000%3Bmt%3Ahot%3Bitem_id%3A386295234%3B" target="_blank">
+            <img
+              src="project/product-images/mini-usb-led-light.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Plug in LED Night Light Mini USB LED Light Flexible USB LED Ambient Light Mini USB LED Light, LED Portable car Bulb, Indoor, Outdoor, Reading, Sleep 
+              </p>
+              <p style="color: #f57224">Rs. 52</p>
+              <p><del>Rs. 149</del> <span>-65%</span></p>
+            </div>
+            </a>
+          </div>
+          
+        </div>
+
+
+<!-- Third row of products (Just for you)-->
+        <div class="daraz__flashSaleList align-items-stretch">
+          <div class="card" style="width: 12rem">
+            <a class="product-link-liststyle" href="https://www.daraz.pk/products/high-quality-wooden-wall-clock-flower-shaped-wall-clock-flower-shaped-wooden-wall-clock-i352480036-s1959602064.html?spm=a2a0e.searchlist.sku.2.33b2234cJRYfnP&search=1" target="_blank">
+            <img
+              src="project/product-images/wall-clock.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">
+                High quality wooden wall clock | Flower shaped wall clock | flower shaped wooden wall clock
+              </p>
+              <p style="color: #f57224">Rs. 379</p>
+              <p><del>Rs. 1,299</del> <span>-71%</span></p>
+            </div>
+            </a>
+          </div>
+
+          <div class="card" style="width: 12rem">
+            <a class="product-link-liststyle" href="https://www.daraz.pk/products/-i263132174-s1481308247.html?spm=a2a0e.searchlist.sku.20.603f744aprvvKj&search=1" target="_blank">
+            <img
+              src="project/product-images/winter-hoodie-men.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">
+                New Winter Collection Fleece Money Heist Hoodie For Men
+              </p>
+              <p style="color: #f57224">Rs. 999</p>
+            </div>
+            </a>
+          </div>
+
+          <div class="card" style="width: 12rem">
+            <a class="product-link-liststyle" href="https://www.daraz.pk/products/nano-tape-double-sided-washable-silicon-transparent-tape-transparent-waterproof-tape-i424252759-s2010184233.html?spm=a2a0e.searchlist.sku.5.59a62348D23CkR&search=1" target="_blank">
+            <img
+              src="project/product-images/nano-tape.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Nano tape (Double sided Washable silicon Transparent tape) Transparent Waterproof tape
+              </p>
+              <p style="color: #f57224">Rs. 199</p>
+              <p><del>Rs. 299</del> <span>-33%</span></p>
+            </div>
+            </a>
+          </div>
+
+          <div class="card" style="width: 12rem">
+            <a class="product-link-liststyle" href="https://www.daraz.pk/products/wifi-mini-camera-hd-1080p-2-mega-pixel-camera-lens-upto-128-gb-memory-card-supported-wireless-video-recorder-voice-recorder-security-monitoring-camera-i440852295-s2129162147.html?spm=a2a0e.searchlist.sku.3.79816cd9yg63nV&search=1" target="_blank">
+            <img
+              src="project/product-images/wifi-mini-camera.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">
+                WiFi Mini Camera HD 1080p 2 Mega pixel Camera Lens Upto 128 GB Memory card | Video Recorder 
+              </p>
+              <p style="color: #f57224">Rs. 1,747</p>
+              <p><del>Rs. 3,000</del> <span>-42%</span></p>
+            </div>
+            </a>
+          </div>
+
+          <div class="card" style="width: 12rem">
+            <a class="product-link-liststyle" href="https://www.daraz.pk/products/sport-shoes-for-men-i264653804-s1816978002.html?spm=a2a0e.searchlist.sku.15.3b0b51cfiTUCbG&search=1" target="_blank">
+            <img
+              src="project/product-images/sports-shoes.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Sports Shoes for Gym Tennis Athletics Road Running Shoes Lightweight Sliding Walking Shoes
+              </p>
+              <p style="color: #f57224">Rs. 799</p>
+              <p><del>Rs. 1500</del> <span>-47%</span></p>
+            </div>
+            </a>
+          </div>
+
+          <div class="card" style="width: 12rem">
+            <a class="product-link-liststyle" href="https://www.daraz.pk/products/homeo-cure-pack-of-3-highly-concentrated-beauty-cream-guaranteed-results-in-2-days-i253751973-s1470366967.html?spm=a2a0e.searchlist.sku.1.23ca5215VkHZQA&search=1" target="_blank">
+            <img
+              src="project/product-images/homeo-cure-pack.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Homeo Cure Pack Of 3 Highly Concentrated Beauty Cream- Guaranteed Results In 2 Days
+              </p>
+              <p style="color: #f57224">Rs. 830</p>
+              <p><del>Rs. 1,050</del> <span>-21%</span></p>
+            </div>
+            </a>
+          </div>
+        </div>
+
+
+
+<!-- Fourth row of products (Just for you)-->
+<div class="daraz__flashSaleList align-items-stretch">
+
+  <div class="card" style="width: 12rem">
+    <a class="product-link-liststyle" href="https://www.daraz.pk/products/wireless-headphones-p47-bluetooth-foldable-headset-with-microphone-support-fm-radio-tf-for-pc-tv-smart-phones-tablets-etc-i209746393-s1913480792.html?spm=a2a0e.home.just4u.55.5bc64076gvJ5b7&scm=1007.28811.367821.0&pvid=7d0c13bc-22bc-4ffc-8ca7-155177c7cfb5&clickTrackInfo=pvid%3A7d0c13bc-22bc-4ffc-8ca7-155177c7cfb5%3Bchannel_id%3A0000%3Bmt%3Ahot%3Bitem_id%3A209746393%3B" target="_blank">
+    <img
+      src="project/product-images/p47-wireless-headphones.png"
+      class="card-img-top"
+      alt="..."
+    />
+    <div class="card-body">
+      <p class="card-text">
+        Wireless Headphones, P47 Bluetooth Foldable Headset with Microphone Support FM Radio TF for PC TV Smart Phones & Tablets Etc
+      </p>
+      <p style="color: #f57224">Rs. 799</p>
+      <p><del>Rs. 2,199</del> <span>-64%</span></p>
+    </div>
+    </a>
+  </div>
+  
+
+  <div class="card" style="width: 12rem">
+    <a  class="product-link-liststyle" href="https://www.daraz.pk/products/212-i432041943-s2061941844.html?spm=a2a0e.home.just4u.56.5bc64076gvJ5b7&scm=1007.28811.367821.0&pvid=7d0c13bc-22bc-4ffc-8ca7-155177c7cfb5&clickTrackInfo=pvid%3A7d0c13bc-22bc-4ffc-8ca7-155177c7cfb5%3Bchannel_id%3A0000%3Bmt%3Ahot%3Bitem_id%3A432041943%3B" target="_blank">
+    <img
+      src="project/product-images/dermacol-makeup-foundation.png"
+      class="card-img-top"
+      alt="..."
+    />
+    <div class="card-body">
+      <p class="card-text">
+        Dermacol make up cover foundation / Lightly Rosy with Beige Undertone 212 Foundation / Foundation
+      </p>
+      <p style="color: #f57224">Rs. 329</p>
+    </div>
+    </a>
+  </div>
+
+
+  <div class="card" style="width: 12rem">
+    <a  class="product-link-liststyle" href="https://www.daraz.pk/products/beautious-24-pieces-professional-makeup-brushes-eye-and-face-brushes-set-with-leather-bag-foundation-brush-eyeshadow-brushes-set-i383177058-s1884778963.html?spm=a2a0e.home.just4u.57.5bc64076gvJ5b7&scm=1007.28811.367821.0&pvid=7d0c13bc-22bc-4ffc-8ca7-155177c7cfb5&clickTrackInfo=pvid%3A7d0c13bc-22bc-4ffc-8ca7-155177c7cfb5%3Bchannel_id%3A0000%3Bmt%3Ahot%3Bitem_id%3A383177058%3B" target="_blank">
+    <img
+      src="project/product-images/24pieces-makeup-brushes.png"
+      class="card-img-top"
+      alt="..."
+    />
+    <div class="card-body">
+      <p class="card-text">
+        Beautious 24 Pieces Makeup brushes - Professional Eye and Face brushes set with leather bag - Foundation brush - Eyeshadow brushes set
+      </p>
+      <p style="color: #f57224">Rs. 1049</p>
+      <p><del>Rs. 1499</del> <span>-30%</span></p>
+    </div>
+    </a>
+  </div>
+
+
+  <div class="card" style="width: 12rem">
+    <a  class="product-link-liststyle" href="https://www.daraz.pk/products/7-i379401477-s1872763117.html?spm=a2a0e.home.just4u.58.5bc64076gvJ5b7&scm=1007.28811.367821.0&pvid=7d0c13bc-22bc-4ffc-8ca7-155177c7cfb5&clickTrackInfo=pvid%3A7d0c13bc-22bc-4ffc-8ca7-155177c7cfb5%3Bchannel_id%3A0000%3Bmt%3Ahot%3Bitem_id%3A379401477%3B" target="_blank">
+    <img
+      src="project/product-images/overr-door-hanger-7hooks.png"
+      class="card-img-top"
+      alt="..."
+    />
+    <div class="card-body">
+      <p class="card-text">
+          Over Door Hanger with 7 Hooks Metal Over the Door Towel Hook Organizer, Hanging Storage Rack for clothes, Coats etc
+      </p>
+      <p style="color: #f57224">Rs. 312</p>
+      <p><del>Rs. 650</del> <span>-52%</span></p>
+    </div>
+    </a>
+  </div>
+
+
+  <div class="card" style="width: 12rem">
+    <a  class="product-link-liststyle" href="https://www.daraz.pk/products/6-6-6-i387918441-s1911014633.html?spm=a2a0e.home.just4u.59.5bc64076gvJ5b7&scm=1007.28811.367821.0&pvid=7d0c13bc-22bc-4ffc-8ca7-155177c7cfb5&clickTrackInfo=pvid%3A7d0c13bc-22bc-4ffc-8ca7-155177c7cfb5%3Bchannel_id%3A0000%3Bmt%3Ahot%3Bitem_id%3A387918441%3B" target="_blank">
+    <img
+      src="project/product-images/6-foldable-storage-bags.png"
+      class="card-img-top"
+      alt="..."
+    />
+    <div class="card-body">
+      <p class="card-text">
+        Pack of 6 Portable Storage Bags Organizer, Portable Clothes Storage Bags for Clothes
+      </p>
+      <p style="color: #f57224">Rs. 479</p>
+      <p><del>Rs. 699</del> <span>-31%</span></p>
+    </div>
+    </a>
+  </div>
+
+
+  <div class="card" style="width: 12rem">
+    <a  class="product-link-liststyle" href="https://www.daraz.pk/products/9-8-nfc-i429962568-s2047488331.html?spm=a2a0e.home.just4u.60.5bc64076gvJ5b7&scm=1007.28811.367821.0&pvid=7d0c13bc-22bc-4ffc-8ca7-155177c7cfb5&clickTrackInfo=pvid%3A7d0c13bc-22bc-4ffc-8ca7-155177c7cfb5%3Bchannel_id%3A0000%3Bmt%3Ahot%3Bitem_id%3A429962568%3B" target="_blank">
+    <img
+      src="project/product-images/watch9-max-smart-watch.png"
+      class="card-img-top"
+      alt="..."
+    />
+    <div class="card-body">
+      <p class="card-text">
+        Tinzzi Watch 9 Max Smart Watch Men Women Series 8 Bluetooth Call NFC Wireless Charging Smartwatch 
+      </p>
+      <p style="color: #f57224">Rs. 2,899</p>
+      <p><del>Rs. 4,498</del> <span>-36%</span></p>
+    </div>
+    </a>
+  </div>
+</div>
+
+      </section>
+
+    </main>
+
+
+<!-- Footer Of Website -->
+      <!-- Starting From here... -->
+      <footer class="footer" style="background-color: #F5F5F5;" >
+        <div class="container">
+          <div class="row">
+
+            <div class="col-lg-3 col-md-6">
+              <h5 class="footer-title" style="color:#F05C01;">Customer Care</h5>
+              <ul class="footer-list">
+                <li><a href="#">Help Center</a></li>
+                <li><a href="#">How to Buy</a></li>
+                <li><a href="#">Corporate & Bulk Purchasing</a></li>
+                <li><a href="#">Returns & Refunds</a></li>
+                <li><a href="#">Daraz Shop</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Purchase Protection</a></li>
+                <li><a href="#">Daraz Pick up Points</a></li>
+              </ul>
+
+              <h5 class="footer-title" style="color:#F05C01;">Make Money With Us</h5>
+              <ul class="footer-list">
+                <li><a href="#">Daraz University</a></li>
+                <li><a href="#">Sell On Daraz</a></li>
+                <li><a href="#">Join Daraz Affiliate Program</a></li>
+              </ul>
+
+            </div>
+
+
+            <div class="col-lg-2 col-md-6">
+              <h5 class="footer-title" style="color:#F05C01;">Daraz</h5>
+              <ul class="footer-list">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Digital Payments</a></li>
+                <li><a href="#">Daraz Donates</a></li>
+                <li><a href="#">Daraz Blog</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">NTN Number : 4012118-6</a></li>
+                <li><a href="#">STRN Number : 1700401211818</a></li>
+                <li><a href="#">Online Shopping App</a></li>
+                <li><a href="#">Online Grocery Shopping</a></li>
+                <li><a href="#">Daraz Exclusive</a></li>
+              </ul>
+            </div>
+
+
+<!-- Third column in footer   (Part Start from here) -->
+<!-- Daraz International (Flags Part Start) -->
+          <div class="col-lg-3 col-md-6">
+            <h3 class="footer-title" style="color:#F05C01;">Daraz International</h3>
+            
+            <div class="row">
+              <div class="col-6">
+                <ul class="footer-list">
+                  <li>
+                    <div class="flag-container">
+                      <div class="flag-circle">
+                        <img src="project/icons/pakistan-flag-icon.png" alt="Pakistan Flag">
+                      </div>
+                      <span class="flag-name">Pakistan</span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+          
+              <div class="col-6">
+                <ul class="footer-list">
+                  <li>
+                    <div class="flag-container">
+                      <div class="flag-circle">
+                        <img src="project/icons/bangladesh-flag-icon.png" alt="Bangladesh Flag">
+                      </div>
+                      <span class="flag-name">Bangladesh</span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          
+            <div class="row">
+              <div class="col-6">
+                <ul class="footer-list">
+                  <li>
+                    <div class="flag-container">
+                      <div class="flag-circle">
+                        <img src="project/icons/srilanka-flag-icon.png" alt="Srilanka Flag">
+                      </div>
+                      <span class="flag-name">Srilanka</span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+          
+              <div class="col-6">
+                <ul class="footer-list">
+                  <li>
+                    <div class="flag-container">
+                      <div class="flag-circle">
+                        <img src="project/icons/myanmar-flag-icon.png" alt="Myanmar Flag">
+                      </div>
+                      <span class="flag-name">Myanmar</span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+          
+              <div class="col-6">
+                <ul class="footer-list">
+                  <li>
+                    <div class="flag-container">
+                      <div class="flag-circle">
+                        <img src="project/icons/nepal-flag-icon.png" alt="Nepal Flag">
+                      </div>
+                      <span class="flag-name">Nepal</span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+
+<!-- Daraz International (Flags Part End here) -->
+
+
+
+<!-- Payment Methods (Part Start From here) -->
+            <h3 class="footer-title" style="color:#F05C01;">Payment Methods</h3>
+            
+              <div class="col-3">
+                <ul class="footer-list">
+                  <li>
+                        <img src="project/icons/cash-on-delievery-icon.png" width="50px" alt="Cash on delivery">
+                  </li>
+                </ul>
+              </div>
+          
+              <div class="col-3">
+                <ul class="footer-list">
+                  <li>
+                        <img src="project/icons/visa-icon.png" width="50px" alt="Visa Payment">
+                  </li>
+                </ul>
+              </div>
+          
+              <div class="col-3">
+                <ul class="footer-list">
+                  <li>
+                        <img src="project/icons/mastercard2-icon.png" width="50px" alt="MasterCard Payment">
+                  </li>
+                </ul>
+              </div>
+          
+              <div class="col-3">
+                <ul class="footer-list">
+                  <li>
+                        <img src="project/icons/easypaisa3-icon.png" width="50px" alt="Easy paisa Payment">
+                  </li>
+                </ul>
+              </div>
+            
+              <div class="col-3">
+                <ul class="footer-list">
+                  <li>
+                        <img src="project/icons/daraz-wallet-logo.png" width="50px" alt="Cash on delivery">
+                  </li>
+                </ul>
+              </div>
+          
+              <div class="col-3">
+                <ul class="footer-list">
+                  <li>
+                        <img src="project/icons/jazz-cash-logo.png" width="50px" alt="Visa Payment">
+                  </li>
+                </ul>
+              </div>
+          
+              <div class="col-3">
+                <ul class="footer-list">
+                  <li>
+                        <img src="project/icons/union-pay-logo.png" width="50px" alt="MasterCard Payment">
+                  </li>
+                </ul>
+              </div>
+          
+              <div class="col-3">
+                <ul class="footer-list">
+                  <li>
+                        <img src="project/icons/hbl-logo.png" width="50px" alt="Easy paisa Payment">
+                  </li>
+                </ul>
+              </div>
+          
+<!-- Payment Methods (Part End here) -->
+
+<!-- Verified by Pci dss  (Part Start from here) -->
+
+              <h4 style="color:#F05C01;">Verified By</h4>
+
+              <div class="col-12">
+                <ul class="footer-list">
+                  <li>
+                        <img src="project/icons/pci-dss-verfied.png" width="90px" alt="pci dss Verified">
+                  </li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+<!-- Verified by Pci dss  (Part End here) -->
+<!-- Third column in footer   (Part End here) -->
+
+
+<!-- Last column of footer Start from here -->
+
+        <div class="col-lg-3 col-md-6">
+          <h4 style="color:#F05C01;">Exclusive Deals and Offers!</h4>
+        <div class="row">
+          <div class="col-6">
+            <ul class="footer-list">
+              <li>
+                  <div>
+                    <img src="project/icons/daraz-qr-code.png" style="width: 120px;" alt="Daraz Qr Code">
+                  </div>
+              </li>
+            </ul>
+          </div>
+
+
+          <div class="col-6">
+            <ul class="footer-list">
+              <li>
+                  <div>
+
+                  <a href="https://apps.apple.com/us/app/daraz-online-shopping-app/id978058048?scm=1003.4.icms-zebra-5029545-2832850.OTHER_5370750400_2485531&spm=a2a0e.home.footer_top.21.5bc64076KueYLj" target="_blank" rel="noopener noreferrer">  
+                    <button type="button" class="btn btn-primary download-btn">
+                      <div class="icon-text-container">
+                        <img src="project/icons/apple-logo.png" style="width: 30px;" alt="AppStore Logo">
+                          <div class="text-container">
+                              <span class="upper-text">Download on the</span>
+                              <span class="lower-text">App Store</span>
+                          </div>
+                      </div>
+                    </button>
+                  </a>
+                  
+                  <a href="https://play.google.com/store/apps/details?spm=a2a0e.home.footer_top.22.5bc64076KueYLj&id=com.daraz.android&scm=1003.4.icms-zebra-5029545-2832850.OTHER_5370750400_2485531&pli=1" target="_blank" rel="noopener noreferrer">
+                    <button type="button" class="btn btn-primary download-btn">
+                      <div class="icon-text-container">
+                        <img src="project/icons/playstore-logo.png" style="width: 30px;" alt="PlayStore Logo">
+                        <div class="text-container">
+                            <span class="upper-text">Get It On</span>
+                            <span class="lower-text">Google Play</span>
+                        </div>
+                      </div>
+                    </button>
+                  </a>
+
+                  <a href="https://appgallery.huawei.com/?spm=a2a0e.home.footer_top.23.5bc64076KueYLj&scm=1003.4.icms-zebra-5029545-2832850.OTHER_5370750400_2485531#/app/C100948133" target="_blank" rel="noopener noreferrer">
+                    <button type="button" class="btn btn-primary download-btn">
+                      <div class="icon-text-container">
+                        <img src="project/icons/appGallery-logo.png" style="width: 30px;" alt="AppGallery Logo">
+                        <div class="text-container">
+                            <span class="upper-text">Explore It On</span>
+                            <span class="lower-text">AppGallery</span>
+                        </div>
+                      </div>
+                    </button>
+                  </a>
+
+                   </div>
+              </li>
+            </ul>
+          </div>
+  
+<center>
+          <div class="icon-text-container">
+            <img src="project/icons//daraz-blue-background-logo.png" style="width: 30px;" alt="Happy Shopping Logo">
+            <div class="text-container">
+                <span style="font-size: 20px; color: #F05C01; font-weight: 900;">Happy Shopping</span>
+                <span style="font-size: 10px; display: block;">Download App</span>
+            </div>
+          </div>
+</center>
+
+        <div class="follow-us">
+          <p style="font-size: 25px; color: #F05C01; margin-top: 25px;">Follow Us</p>
+          <ul class="social-media-icons">
+            <li><a href="https://www.facebook.com/darazpk?spm=a2a0e.home.footer_top.d_fbk.5bc64076KueYLj&scm=1003.4.icms-zebra-5029545-2833168.OTHER_5370750444_2485565"><img src="project/icons/facebook-logo.png" class="social-img" alt="Facebook Logo"></a></li>
+            <li><a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fdarazpk"><img src="project/icons/twitter-logo.png" class="social-img" alt="Twitter Logo"></a></li>
+            <li><a href="https://www.instagram.com/darazpk/?spm=a2a0e.home.footer_top.d_ins.5bc64076KueYLj&scm=1003.4.icms-zebra-5029545-2833168.OTHER_5370750450_2485565"><img src="project/icons/instagram-logo.png" class="social-img" alt="Instagram Logo"></a></li>
+            <li><a href="https://www.youtube.com/channel/UC2BZLVEe9yLof1ghc_YI0_A"><img src="project/icons/youtube-logo.png" class="social-img" alt="Youtube Logo"></a></li>
+            <li><a href="https://blog.daraz.pk/?spm=a2a0e.home.footer_top.d_dbl.5bc64076KueYLj&scm=1003.4.icms-zebra-5029545-2833168.OTHER_5370750453_2485565"><img src="project/icons/internet-logo.png" class="social-img" alt="Internet Logo"></a></li>
+          </ul>
+        </div>
+  
+</div>
+
+<!-- Last column of footer End here -->
+
+
+          </div>
+        </div>
+      </footer>
+<!-- Footer Ends here -->
+
+    <script>
+
+
+
+      
+      function hide() {
+        document.getElementById("hide__add__toast").style.display = "none";
+        document.querySelector(".toast__cross").style.display = "none";
+      }
+
+      window.onscroll = function () {
+        myFunction();
+      };
+
+      const navbar = document.querySelector(".daraz__navbar");
+      const sticky = navbar.offsetTop;
+
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky");
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      }
+    </script>
+  </body>
+</html>
